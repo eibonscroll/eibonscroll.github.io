@@ -4,7 +4,6 @@
     "name": "Michael Galbraith Purvis",
     "label": "Senior Software Engineer",
     "email": "mikegpurvis@gmail.com",
-    "phone": "(702) 724-6689",
     "location": {
       "city": "Fort Collins",
       "region": "CO",
@@ -26,9 +25,16 @@
   },
   "work": [
     {
+      "name": "Aedis Phantastica Games",
+      "position": "Director of Engineering",
+      "startDate": "2025-06",
+      "summary": "Lead Technical Development of UE5 3rd Person Shooter with Multiplayer"
+    },
+    {
       "name": "Mercor Intelligence",
       "position": "Senior Software Engineer (Contract)",
       "startDate": "2025-01",
+      "endDate": "2025-08",
       "summary": "Prompt creation for training advanced AI in complex software engineering tasks. Work across C++/Python frameworks and AI productivity tools."
     },
     {
@@ -203,6 +209,28 @@
     }
   ],
   "skills": [
+     {
+      "name": "AI / ML",
+      "keywords": [
+        "Prompt Engineering",
+        "Computer Vision",
+        "OpenCV",
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "Transformers (Hugging Face)",
+        "LangChain / LangFlow",
+        "Vector Databases (Pinecone, Weaviate, FAISS)",
+        "MCP (Model Context Protocol)",
+        "Agentic AI",
+        "AI-assisted Programming",
+        "Fine-tuning & LoRA",
+        "RLHF (Reinforcement Learning with Human Feedback)",
+        "Dockerized ML Pipelines",
+        "Data Preprocessing & Feature Engineering",
+        "Probability & Statistics for ML"
+      ]
+    },
     {
       "name": "Programming Languages",
       "keywords": ["C++", "C#", "JavaScript", "Python", "Java"]
@@ -229,11 +257,11 @@
     },
     {
       "name": "IDEs",
-      "keywords": ["Visual Studio", "WebStorm", "Eclipse", "IntelliJ", "CLion"]
+      "keywords": ["Visual Studio", "Rider", "WebStorm", "Eclipse", "IntelliJ", "CLion"]
     },
     {
       "name": "Source Control",
-      "keywords": ["Git", "Perforce", "SVN"]
+      "keywords": ["Git", "Perforce", "Diversion", "SVN"]
     },
     {
       "name": "Project Management",
