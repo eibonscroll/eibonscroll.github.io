@@ -1,0 +1,94 @@
+:root {
+  --bg: #0a0a0f;
+  --fg: #e0e0e0;
+  --muted: #7dd3fc;
+  --accent: #f0f;
+  --accent2: #00ffe5;
+  --chip: #222;
+}
+
+body {
+  font: 16px/1.6 "Share Tech Mono", monospace, system-ui;
+  background: linear-gradient(180deg, #050510, #0a0a0f 90%);
+  color: var(--fg);
+  margin: 0;
+}
+
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px 80px;
+  background: rgba(10,10,20,0.8);
+  border: 2px solid var(--accent2);
+  box-shadow: 0 0 15px var(--accent2), 0 0 30px var(--accent);
+  border-radius: 8px;
+}
+
+header {
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: var(--accent2);
+  text-shadow: 0 0 8px var(--accent), 0 0 16px var(--accent2);
+}
+
+.label {
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 6px;
+  text-shadow: 0 0 6px var(--accent);
+}
+
+.contact a, .contact {
+  color: var(--muted);
+}
+
+h2 {
+  margin: 28px 0 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-left: 4px solid var(--accent2);
+  padding-left: 8px;
+  text-shadow: 0 0 6px var(--accent);
+}
+
+.item {
+  margin: 12px 0 16px;
+  padding: 10px 14px;
+  border-left: 2px solid var(--accent2);
+  background: rgba(255,255,255,0.02);
+  transition: background 0.3s;
+}
+.item:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.item .hdr {
+  font-weight: 700;
+  color: var(--accent2);
+  text-shadow: 0 0 4px var(--accent2);
+}
+
+.dates {
+  color: var(--muted);
+  font-size: 0.9em;
+}
+
+ul {
+  margin: 6px 0 8px 20px;
+}
+
+a {
+  color: var(--accent2);
+  text-decoration: none;
+}
+a:hover {
+  text-shadow: 0 0 4px var(--accent);
+}
