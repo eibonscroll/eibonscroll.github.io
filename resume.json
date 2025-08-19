@@ -1,0 +1,286 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Michael Galbraith Purvis",
+    "label": "Senior Software Engineer",
+    "email": "mikegpurvis@gmail.com",
+    "phone": "(702) 724-6689",
+    "location": {
+      "city": "Fort Collins",
+      "region": "CO",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "michael-purvis-4868bb6",
+        "url": "https://www.linkedin.com/in/michael-purvis-4868bb6/"
+      },
+      {
+        "network": "GitHub",
+        "username": "eibonscroll",
+        "url": "https://github.com/eibonscroll"
+      }
+    ],
+    "summary": "Senior Software Engineer with deep experience in C++/C#, game engines (Unreal, Unity), simulation, and UI/HMI. Led teams and shipped across games, vehicle HMI, and enterprise simulations; comfortable with Python tooling and modern web stacks."
+  },
+  "work": [
+    {
+      "name": "Mercor Intelligence",
+      "position": "Senior Software Engineer (Contract)",
+      "startDate": "2025-01",
+      "summary": "Prompt creation for training advanced AI in complex software engineering tasks. Work across C++/Python frameworks and AI productivity tools."
+    },
+    {
+      "name": "Canoo",
+      "position": "Lead HMI Software Engineer",
+      "startDate": "2021-11",
+      "endDate": "2025-01",
+      "summary": "Led the UI/HMI effort for Canoo vehicles, overseeing UI engineers, hiring, mentoring, demos, and dashboard architecture.",
+      "highlights": [
+        "Designed and implemented dashboard touchscreen application architecture.",
+        "Programming in C++, Qt/QML, and Unreal Engine; shader/material development.",
+        "Meta-programming with API Gear to generate service bindings to Unreal Engine.",
+        "Served on engineering interview panels and drove team standards."
+      ]
+    },
+    {
+      "name": "Heart Machine",
+      "position": "Senior Systems Engineer",
+      "startDate": "2021-04",
+      "endDate": "2021-11",
+      "summary": "UI programming on Solar Ash (PS4/PS5, PC) using Unreal Engine C++ and Blueprints."
+    },
+    {
+      "name": "Konami Gaming, Inc.",
+      "position": "Software Engineer IV",
+      "startDate": "2019-06",
+      "endDate": "2021-04",
+      "summary": "Team Lead in Games R&D; C++ development and debugging for video slot machine games.",
+      "highlights": [
+        "Led tasking, mentoring, and interviewing for engineers.",
+        "Project assessment, planning, and time budgeting."
+      ]
+    },
+    {
+      "name": "United Power",
+      "position": "Senior Game Programmer",
+      "startDate": "2018-08",
+      "endDate": "2019-06",
+      "summary": "Team lead and JavaScript game programmer for a web-based MMO.",
+      "highlights": [
+        "PlayCanvas, Vue, Apollo/GraphQL, HTML5, WebGL shader programming."
+      ]
+    },
+    {
+      "name": "Konami Gaming, Inc.",
+      "position": "Software Engineer III",
+      "startDate": "2017-02",
+      "endDate": "2018-08",
+      "summary": "C++ development and debugging for video slot machine games.",
+      "highlights": [
+        "Evaluated Unreal Engine 4 and prototyped for a next-gen game platform.",
+        "Built internal C# tooling."
+      ]
+    },
+    {
+      "name": "TecMasters, Inc.",
+      "position": "Simulation Software Developer",
+      "startDate": "2016-07",
+      "endDate": "2017-01",
+      "summary": "C++ programming for modeling & simulation applications; GUI work with GTK."
+    },
+    {
+      "name": "Alatec, Inc.",
+      "position": "Simulation Software Developer",
+      "startDate": "2015-08",
+      "endDate": "2016-07",
+      "summary": "C++ refactoring from legacy C to modern C++ to meet military requirements."
+    },
+    {
+      "name": "Midnight Studios",
+      "position": "Software Engineer III",
+      "startDate": "2013-10",
+      "endDate": "2015-07",
+      "summary": "Designed and led development for a small UE4 arcade game; AAA UI contributions.",
+      "highlights": [
+        "Implemented GUI features enabling 4-player local splitscreen to Borderlands: The Pre-Sequel and Borderlands 2.",
+        "Helped develop a modular gaming platform (HTML5/AngularJS/CreateJS)."
+      ]
+    },
+    {
+      "name": "Janus Research Group",
+      "position": "Principal Software Engineer",
+      "startDate": "2012-03",
+      "endDate": "2013-10",
+      "summary": "Promoted from Senior Engineer; Unreal Engine 3/C++/UnrealScript gameplay systems.",
+      "highlights": [
+        "Led FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation).",
+        "Multiplayer networking; ported single-player systems to multiplayer.",
+        "Built Python tool to parse code and auto-populate documentation spreadsheets, reducing effort from 6 to 2 months.",
+        "Built Python build-monitor gadget for server status."
+      ]
+    },
+    {
+      "name": "Alatec, Inc.",
+      "position": "Software Analyst III",
+      "startDate": "2011-10",
+      "endDate": "2012-03",
+      "summary": "Java 2D graphics for military simulation; engineering documentation automation."
+    },
+    {
+      "name": "Chickasaw Nation Industries",
+      "position": "Senior Software Engineer",
+      "startDate": "2009-11",
+      "endDate": "2011-10",
+      "summary": "Designed and developed an Intelligent Agent military simulation and led the project.",
+      "highlights": [
+        "Project Manager, Development Lead, and Site Manager in year 2.",
+        "Recruited and hired engineers and artists.",
+        "Technologies: C++, MySQL, .NET/C#/WPF; HLA interoperability with other simulations."
+      ]
+    },
+    {
+      "name": "Alatec, Inc.",
+      "position": "Software Analyst I",
+      "startDate": "2008-12",
+      "endDate": "2009-11",
+      "summary": "Wargame and ground combat simulation programming; built GUI tool suite for scenario creation for COMBATXI."
+    },
+    {
+      "name": "Lifetouch National Studios",
+      "position": "Application Programmer",
+      "startDate": "2006-09",
+      "endDate": "2008-10",
+      "summary": "Office automation for assembling and printing using C#, VB, SQL, and .NET; Access queries."
+    },
+    {
+      "name": "Tricky Software",
+      "position": "Jr. Software Engineer (Contract)",
+      "startDate": "2007-10",
+      "endDate": "2007-11",
+      "summary": "Programmed menu system for Spore Origins (iPod Touch) in C."
+    },
+    {
+      "name": "White Wolf / CCP North America",
+      "position": "Intern Programmer",
+      "startDate": "2007-05",
+      "endDate": "2007-08",
+      "summary": "Developed a combat system prototype for the MMO World of Darkness (Python in EVE engine)."
+    }
+  ],
+  "education": [
+    {
+      "institution": "The Art Institutes of California (San Francisco, CA)",
+      "area": "Visual & Game Programming",
+      "studyType": "B.S.",
+      "startDate": "2005-09",
+      "endDate": "2008-12",
+      "score": "3.5",
+      "courses": [
+        "C++, C#, OpenGL, Unreal Engine, Unity, Maya scripting, shader programming (C/Renderman)"
+      ]
+    },
+    {
+      "institution": "Heald Institute of Technology (San Francisco, CA)",
+      "area": "Electronics Technology",
+      "studyType": "A.S.",
+      "startDate": "1994-01",
+      "endDate": "1996-07",
+      "score": "3.8",
+      "courses": [
+        "Analog/Digital circuits, troubleshooting, assembly language, C programming"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "U.S. Army",
+      "position": "Specialist E-4, M1A1 Armor Crewmember (19K10)",
+      "startDate": "1990-01",
+      "endDate": "1993-12-31",
+      "summary": "Operations: Desert Shield, Desert Storm, Desert Defense; Honorable Discharge."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["C++", "C#", "JavaScript", "Python", "Java"]
+    },
+    {
+      "name": "Game Engines",
+      "keywords": ["Unreal Engine", "Unity", "PlayCanvas", "GameMaker"]
+    },
+    {
+      "name": "GUI / Web",
+      "keywords": ["Vue", "HTML", "CSS", "WPF", "Silverlight", "AngularJS", "GTK", "Flash Scaleform"]
+    },
+    {
+      "name": "Databases",
+      "keywords": ["MySQL", "T-SQL", "SQL Server"]
+    },
+    {
+      "name": "Servers",
+      "keywords": ["Node.js", "Apache", "JBoss", "IIS"]
+    },
+    {
+      "name": "Operating Systems",
+      "keywords": ["Windows", "Ubuntu Linux", "Red Hat Linux"]
+    },
+    {
+      "name": "IDEs",
+      "keywords": ["Visual Studio", "WebStorm", "Eclipse", "IntelliJ", "CLion"]
+    },
+    {
+      "name": "Source Control",
+      "keywords": ["Git", "Perforce", "SVN"]
+    },
+    {
+      "name": "Project Management",
+      "keywords": ["Jira", "Unfuddle", "Microsoft Project"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Canoo HMI Dashboard",
+      "entity": "Canoo",
+      "roles": ["Lead HMI Software Engineer"],
+      "startDate": "2021-11",
+      "endDate": "2025-01",
+      "summary": "Led architecture and implementation of vehicle dashboard touchscreen UI/HMI in Unreal/Qt-QML; team leadership and hiring."
+    },
+    {
+      "name": "Solar Ash (UI)",
+      "entity": "Heart Machine",
+      "roles": ["Senior Systems Engineer"],
+      "startDate": "2021-04",
+      "endDate": "2021-11",
+      "summary": "UI programming in Unreal Engine C++/Blueprints for PS4/PS5 and PC."
+    },
+    {
+      "name": "Borderlands 2 / The Pre-Sequel – 4P Splitscreen GUI",
+      "entity": "Midnight Studios",
+      "roles": ["Software Engineer III"],
+      "startDate": "2013-10",
+      "endDate": "2015-07",
+      "summary": "Implemented GUI features enabling 4-player local splitscreen."
+    },
+    {
+      "name": "FBI Crime Scene Training Game",
+      "entity": "Janus Research Group",
+      "roles": ["Principal Software Engineer"],
+      "startDate": "2012-03",
+      "endDate": "2013-10",
+      "summary": "Led design and development; built core gameplay systems and networking in Unreal Engine 3."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Pixar Certificate for RenderMan",
+      "issuer": "Pixar / Autodesk Maya"
+    }
+  ],
+  "meta": {
+    "theme": "even"
+  }
+}
