@@ -212,25 +212,11 @@
      {
       "name": "AI / ML",
       "keywords": [
-        "Prompt Engineering",
-        "Computer Vision",
-        "OpenCV",
-        "PyTorch",
-        "TensorFlow",
-        "scikit-learn",
-        "Transformers (Hugging Face)",
-        "LangChain / LangFlow",
-        "Vector Databases (Pinecone, Weaviate, FAISS)",
-        "MCP (Model Context Protocol)",
-        "Agentic AI",
-        "AI-assisted Programming",
-        "Fine-tuning & LoRA",
-        "RLHF (Reinforcement Learning with Human Feedback)",
-        "Dockerized ML Pipelines",
-        "Data Preprocessing & Feature Engineering",
-        "Probability & Statistics for ML"
+        "Prompt Engineering", "Computer Vision (OpenCV)", "Deep Learning (PyTorch, TensorFlow)", "Transformers & LLM Tools (Hugging Face, LangChain, Vector DBs)", "Agentic AI"
       ]
-    },
+    }
+
+    ,
     {
       "name": "Programming Languages",
       "keywords": ["C++", "C#", "JavaScript", "Python", "Java"]
