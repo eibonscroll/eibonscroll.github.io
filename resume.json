@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "Senior Software Engineer",
+    "label": "Software Engineering Manager / Director",
     "email": "mikegpurvis@gmail.com",
     "location": {
       "city": "Fort Collins",
@@ -21,7 +21,7 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "Senior Software Engineer with deep experience in C++/C#, game engines (Unreal, Unity), simulation, and UI/HMI. Led teams and shipped across games, vehicle HMI, and enterprise simulations; comfortable with Python tooling and modern web stacks."
+    "summary": "Senior Software Engineer with specialty in User Interface and Systems Programming as well as Management. experience in C++/C#, game engines (Unreal, Unity), simulation, and UI/HMI. Led teams and shipped across games, vehicle HMI, and military simulations; comfortable with metaprogramming for large interfaces"
   },
   "work": [
     {
@@ -212,7 +212,7 @@
      {
       "name": "AI / ML",
       "keywords": [
-        "Prompt Engineering", "Computer Vision (OpenCV)", "Deep Learning (PyTorch, TensorFlow)", "Transformers & LLM Tools (Hugging Face, LangChain, Vector DBs)", "Agentic AI"
+        "Prompt Engineering", "Computer Vision (OpenCV)", "Deep Learning (PyTorch, TensorFlow)", "Agentic AI"
       ]
     }
 
