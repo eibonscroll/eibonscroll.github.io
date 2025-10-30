@@ -25,10 +25,16 @@
   },
   "work": [
     {
+      "name": "Prodigy Labs - The Art of Intelligence",
+      "position": "AI Fullstack Engineer",
+      "startDate": "2025-10",
+      "summary": "Fullstack AI - Unreal Engine - Meta Human - Agentic AI - AI/ML Engineering"
+    },
+    {
       "name": "Aedis Phantastica Games",
       "position": "Director of Engineering",
       "startDate": "2025-06",
-      "summary": "Lead Technical Development of UE5 3rd Person Shooter with Multiplayer"
+      "summary": "Lead Technical Development of 3rd person adventure game Vertical Slice"
     },
     {
       "name": "Mercor Intelligence",
