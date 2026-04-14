@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Blog
+permalink: /blog/
+---
+<div class="page">
+  <header>
+    <h1>Blog</h1>
+    <p class="muted">Writing on software engineering, AI-assisted development, and game technology.</p>
+  </header>
+
+  {% if collections.posts | length %}
+  <ul class="blog-list">
+    {% for post in collections.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.data.title }}</a>
+      <span class="dates">{{ post.date | readableDate }}</span>
+      {% if post.data.description %}
+      <span class="excerpt">{{ post.data.description }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="muted">Posts will appear here as they are published.</p>
+  {% endif %}
+</div>

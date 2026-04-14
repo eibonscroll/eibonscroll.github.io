@@ -1,0 +1,16 @@
+{
+  "name": "mikepurvis-tech",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal site — blog and resume (Eleventy)",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "clean": "rimraf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "rimraf": "^6.0.1"
+  }
+}

@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+permalink: /
+---
+<div class="page">
+  <header>
+    <h1>{{ resume.basics.name }}</h1>
+    <div class="label">{{ resume.basics.label }}</div>
+    <p class="home-intro">
+      Engineering leadership, UI and systems programming, Unreal Engine, and AI-assisted software development.
+      This site hosts my <a href="/blog/">writing</a> and <a href="/resume/">resume</a>.
+    </p>
+  </header>
+
+  <h2>Explore</h2>
+  <div class="home-grid">
+    <a class="home-card" href="/blog/">
+      <div class="home-card__title">Blog</div>
+      <p class="home-card__desc">Notes on building software with AI tools, game tech, and engineering practice.</p>
+    </a>
+    <a class="home-card" href="/projects/">
+      <div class="home-card__title">Projects</div>
+      <p class="home-card__desc">Highlighted work from shipping UI, HMI, and game technology.</p>
+    </a>
+    <a class="home-card" href="/resume/">
+      <div class="home-card__title">Resume</div>
+      <p class="home-card__desc">Experience, skills, and education (same data as <code>resume.json</code>).</p>
+    </a>
+    <a class="home-card" href="/about/">
+      <div class="home-card__title">About</div>
+      <p class="home-card__desc">How I work and how to reach me.</p>
+    </a>
+  </div>
+</div>

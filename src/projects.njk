@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: Projects
+permalink: /projects/
+description: "Selected projects — HMI, Unreal Engine UI, games, and simulation."
+---
+<div class="page">
+  <header>
+    <h1>Projects</h1>
+    <p class="muted">Highlights from <a href="/resume/">resume</a> data; add demos and repositories here over time.</p>
+  </header>
+
+  {% for p in resume.projects %}
+  <div class="item">
+    <div class="hdr">{{ p.name }}{% if p.entity %} — {{ p.entity }}{% endif %}</div>
+    <div class="dates">{{ p.startDate }} – {{ p.endDate or "Present" }}</div>
+    {% if p.roles %}<div>{{ p.roles | join(", ") }}</div>{% endif %}
+    {% if p.summary %}<div>{{ p.summary }}</div>{% endif %}
+  </div>
+  {% endfor %}
+</div>

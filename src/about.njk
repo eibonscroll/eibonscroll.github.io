@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+title: About
+permalink: /about/
+description: "About Michael G. Purvis — software engineer focused on UI, systems, Unreal Engine, and AI-assisted development."
+---
+<div class="page page--post">
+  <header>
+    <h1>About</h1>
+  </header>
+  <div class="post-body">
+    <p>
+      I am a software engineering leader and hands-on developer with deep experience in
+      user interfaces, systems programming, and game engines—especially Unreal Engine.
+      Recent work spans AI-assisted engineering, vehicle HMI, and game shipping.
+    </p>
+    <p>
+      I use AI tools as accelerators under human review: tests, diffs, documentation,
+      and exploration—not as a substitute for correctness, security, or design judgment.
+    </p>
+    <p>
+      <strong>Contact:</strong>
+      {% if resume.basics.email %}
+      <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
+      {% endif %}
+      {% if resume.basics.profiles | length %}
+      ·
+      {% for p in resume.basics.profiles %}
+      <a href="{{ p.url }}" rel="noopener">{{ p.network }}</a>{% if not loop.last %} · {% endif %}
+      {% endfor %}
+      {% endif %}
+    </p>
+  </div>
+</div>

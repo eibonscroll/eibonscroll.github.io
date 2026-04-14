@@ -1,0 +1,97 @@
+---
+layout: layouts/base.njk
+title: Resume
+description: "Resume — software engineering leadership, C++, Unreal Engine, AI/ML, UI/HMI, and simulation."
+permalink: /resume/
+---
+<div class="page">
+  <header>
+    <h1>{{ resume.basics.name }}</h1>
+    <div class="label">{{ resume.basics.label }}</div>
+    <div class="contact">
+      {% if resume.basics.email %}<a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>{% endif %}
+      {% if resume.basics.phone %} · {{ resume.basics.phone }}{% endif %}
+      {% if resume.basics.location %}
+      · {{ resume.basics.location.city }}{% if resume.basics.location.region %}, {{ resume.basics.location.region }}{% endif %}{% if resume.basics.location.countryCode %} {{ resume.basics.location.countryCode }}{% endif %}
+      {% endif %}
+      {% if resume.basics.profiles %}
+      · {% for p in resume.basics.profiles %}<a href="{{ p.url }}" target="_blank" rel="noopener">{{ p.network }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+      {% endif %}
+    </div>
+  </header>
+
+  {% if resume.basics.summary %}
+  <section>
+    <p>{{ resume.basics.summary }}</p>
+  </section>
+  {% endif %}
+
+  <section>
+    <h2>Skills</h2>
+    {% for s in resume.skills %}
+    <div class="item"><span class="hdr">{{ s.name }}:</span> {{ (s.keywords or []) | join(", ") }}</div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    {% for w in resume.work %}
+    <div class="item">
+      <div class="hdr">{{ w.position }} @ {{ w.name }}</div>
+      <div class="dates">{{ w.startDate }} – {{ w.endDate or "Present" }}</div>
+      {% if w.summary %}<div>{{ w.summary }}</div>{% endif %}
+      {% if w.highlights | length %}
+      <ul>{% for h in w.highlights %}<li>{{ h }}</li>{% endfor %}</ul>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    {% for p in resume.projects %}
+    <div class="item">
+      <div class="hdr">{{ p.name }}{% if p.entity %} — {{ p.entity }}{% endif %}</div>
+      <div class="dates">{{ p.startDate }} – {{ p.endDate or "Present" }}</div>
+      {% if p.roles %}<div>{{ p.roles | join(", ") }}</div>{% endif %}
+      {% if p.summary %}<div>{{ p.summary }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    {% for e in resume.education %}
+    <div class="item">
+      <div class="hdr">{{ e.institution }}</div>
+      <div class="dates">{{ e.startDate }} – {{ e.endDate }}</div>
+      <div><em>{{ e.studyType }} — {{ e.area }}</em></div>
+    </div>
+    {% endfor %}
+  </section>
+
+  {% if resume.volunteer | length %}
+  <section>
+    <h2>Other</h2>
+    {% for v in resume.volunteer %}
+    <div class="item">
+      <div class="hdr">{{ v.position }}, {{ v.organization }}</div>
+      <div class="dates">{{ v.startDate }} – {{ v.endDate }}</div>
+      {% if v.summary %}<div>{{ v.summary }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% if resume.certificates | length %}
+  <section>
+    <h2>Certificates</h2>
+    {% for c in resume.certificates %}
+    <div class="item">
+      <div class="hdr">{{ c.name }}</div>
+      {% if c.issuer %}<div class="muted">{{ c.issuer }}</div>{% endif %}
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+</div>
