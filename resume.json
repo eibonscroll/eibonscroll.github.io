@@ -296,6 +296,15 @@
       "startDate": "2012-03",
       "endDate": "2013-10",
       "summary": "Led design and development; built core gameplay systems and networking in Unreal Engine 3."
+    },
+    {
+      "name": "Lemons Must Die",
+      "entity": "Superbyte Games",
+      "image": "/images/lmd_thumbnail.jpg",
+      "roles": ["Enginneernig and Design"],
+      "startDate": "2015-05",
+      "endDate": "2019-06",
+      "summary": "Gameplay Programming, UI Programming, and Level Design for levels 2–13, including boss combat design and programming."
     }
   ],
   "certificates": [
