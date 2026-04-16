@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "Software Engineering Manager / Director",
+    "label": "Senior Software Engineer — IC / Tech Lead",
     "email": "mikegpurvis@gmail.com",
     "location": {
       "city": "Fort Collins",
@@ -264,6 +264,7 @@
     {
       "name": "Canoo HMI Dashboard",
       "entity": "Canoo",
+      "image": "/images/canoo_thumbnail.jpg",
       "roles": ["Lead HMI Software Engineer"],
       "startDate": "2021-11",
       "endDate": "2025-01",
@@ -272,6 +273,7 @@
     {
       "name": "Solar Ash (UI)",
       "entity": "Heart Machine",
+      "image": "/images/solarash_thumbnail.jpg",
       "roles": ["Senior Systems Engineer"],
       "startDate": "2021-04",
       "endDate": "2021-11",
@@ -280,6 +282,7 @@
     {
       "name": "Borderlands 2 / The Pre-Sequel – 4P Splitscreen GUI",
       "entity": "Midnight Studios",
+      "image": "/images/bl2_thumbnail.jpg",
       "roles": ["Software Engineer III"],
       "startDate": "2013-10",
       "endDate": "2015-07",
@@ -288,6 +291,7 @@
     {
       "name": "FBI Crime Scene Training Game",
       "entity": "Janus Research Group",
+      "image": "/images/bop_thumnail.jpg",
       "roles": ["Principal Software Engineer"],
       "startDate": "2012-03",
       "endDate": "2013-10",

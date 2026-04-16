@@ -12,6 +12,9 @@ description: "Selected projects — HMI, Unreal Engine UI, games, and simulation
 
   {% for p in resume.projects %}
   <div class="item">
+    {% if p.image %}
+    <img class="project-thumb" src="{{ p.image }}" alt="{{ p.name }} thumbnail" loading="lazy" />
+    {% endif %}
     <div class="hdr">{{ p.name }}{% if p.entity %} — {{ p.entity }}{% endif %}</div>
     <div class="dates">{{ p.startDate }} – {{ p.endDate or "Present" }}</div>
     {% if p.roles %}<div>{{ p.roles | join(", ") }}</div>{% endif %}
