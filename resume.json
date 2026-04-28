@@ -26,14 +26,15 @@
   "work": [
     {
       "name": "Prodigy Labs - The Art of Intelligence",
-      "position": "AI Fullstack Engineer",
+      "position": "Staff Real-Time Software Engineer",
       "startDate": "2025-10",
-      "summary": "Fullstack AI - Unreal Engine - Meta Human - Agentic AI - AI/ML Engineering"
+      "summary": "Unreal Engine - Meta Human - Nvidia Ace for Games - Breathing life into 3D Digital Humans"
     },
     {
-      "name": "Aedis Phantastica Games",
+      "name": "Grimigeon Games",
       "position": "Director of Engineering",
       "startDate": "2025-06",
+      "endDate": "2026-04",
       "summary": "Lead Technical Development of 3rd person adventure game Vertical Slice"
     },
     {
