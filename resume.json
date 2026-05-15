@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "AI Solution Architect | Workflow Automation for Coaches, Consultants & High-Ticket Businesses",
-    "email": "mikegpurvis@gmail.com",
+    "label": "AI Solution Architect | Agentic Workflows & AI-Native Business Systems",
+    "email": "founder@contextarcana.com",
     "location": {
       "city": "Fort Collins",
       "region": "CO",
@@ -21,7 +21,7 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "AI Solution Architect with 15+ years of enterprise systems engineering experience, now focused on helping coaches, consultants, and high-ticket service businesses unlock transformational productivity through AI. I assess where AI creates the highest ROI, then design and implement end-to-end agentic workflows — automating lead generation, client onboarding, content pipelines, and decision-making so businesses scale without adding headcount. I built and launched Agentic Tarot as a proof-of-concept fully autonomous AI business: AI-generated personalized readings, automated commerce, and AI-driven marketing — zero staff, running 24/7. My engineering background means I deliver enterprise-grade solutions, not surface-level tool stacks: clean architecture, reliable systems, and AI workflows that actually hold up under real business load."
+    "summary": "AI Solution Architect with 15+ years of software engineering experience, now focused on helping coaches, consultants, and service businesses redesign operations around AI.. I assess where AI creates the highest ROI, then design and implement end-to-end agentic workflows — automating lead generation, client onboarding, content pipelines, and decision-making so businesses scale without adding headcount. I built and launched Agentic Tarot as a proof-of-concept fully autonomous AI business: AI-generated personalized readings, automated commerce, and AI-driven marketing — zero staff, running 24/7. My engineering background means I deliver enterprise-grade solutions, not surface-level tool stacks: clean architecture, reliable systems, and AI workflows that actually hold up under real business load."
   },
   "work": [
     {
