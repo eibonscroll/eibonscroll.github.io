@@ -263,6 +263,15 @@
   ],
   "projects": [
     {
+      "name": "Agentic Tarot",
+      "entity": "Independent",
+      "url": "https://agentictarot.com/",
+      "image": "/images/agentic_tarot.jpg",
+      "roles": ["AI Solution Architect", "Founder"],
+      "startDate": "2025-11",
+      "summary": "Designed and built a fully agentic online business from the ground up — an AI-powered tarot reading platform where every layer of the stack is orchestrated by AI agents. Claude-powered agents handle reading generation, personalization, and contextual narrative; a Stripe-integrated storefront manages commerce end-to-end; automated content pipelines drive SEO and social distribution. The system operates with minimal human intervention, demonstrating applied AI architecture across inference, workflow orchestration, payment processing, and growth automation."
+    },
+    {
       "name": "Canoo HMI Dashboard",
       "entity": "Canoo",
       "image": "/images/canoo_thumbnail.jpg",
