@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "Senior Software Engineer — IC / Tech Lead",
+    "label": "AI Solution Architect | Workflow Automation for Coaches, Consultants & High-Ticket Businesses",
     "email": "mikegpurvis@gmail.com",
     "location": {
       "city": "Fort Collins",
@@ -21,7 +21,7 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "Senior Software Engineer with specialty in User Interface and Systems Programming as well as Management. experience in C++/C#, game engines (Unreal, Unity), simulation, and UI/HMI. Led teams and shipped across games, vehicle HMI, and military simulations; comfortable with metaprogramming for large interfaces"
+    "summary": "AI Solution Architect with 15+ years of enterprise systems engineering experience, now focused on helping coaches, consultants, and high-ticket service businesses unlock transformational productivity through AI. I assess where AI creates the highest ROI, then design and implement end-to-end agentic workflows — automating lead generation, client onboarding, content pipelines, and decision-making so businesses scale without adding headcount. I built and launched Agentic Tarot as a proof-of-concept fully autonomous AI business: AI-generated personalized readings, automated commerce, and AI-driven marketing — zero staff, running 24/7. My engineering background means I deliver enterprise-grade solutions, not surface-level tool stacks: clean architecture, reliable systems, and AI workflows that actually hold up under real business load."
   },
   "work": [
     {
@@ -216,55 +216,54 @@
     }
   ],
   "skills": [
-     {
-      "name": "AI / ML",
+    {
+      "name": "AI Strategy & Consulting",
       "keywords": [
-        "Prompt Engineering", "Computer Vision (OpenCV)", "Deep Learning (PyTorch, TensorFlow)", "Agentic AI"
+        "Company AI Needs Assessment",
+        "AI Roadmap & Workflow Design",
+        "Operations Optimization for Productivity & Profit",
+        "AI-Grade Data Architecture",
+        "Decision Support & Business Intelligence",
+        "AI Workshop Facilitation & Team Training"
       ]
-    }
-
-    ,
-    {
-      "name": "Programming Languages",
-      "keywords": ["C++", "C#", "JavaScript", "Python", "Java"]
     },
     {
-      "name": "Game Engines",
-      "keywords": ["Unreal Engine", "Unity", "PlayCanvas", "GameMaker"]
+      "name": "Agentic AI & Automation",
+      "keywords": [
+        "AI Agent Design & Deployment",
+        "End-to-End Agentic Business Systems",
+        "Workflow Orchestration & Process Automation",
+        "AI-Powered Lead Generation & Personalized Marketing",
+        "Conversational AI & Chatbot Implementation",
+        "Co-Pilot & Prompt Engineering"
+      ]
     },
     {
-      "name": "GUI / Web",
-      "keywords": ["Vue", "HTML", "CSS", "WPF", "Silverlight", "AngularJS", "GTK", "Flash Scaleform"]
+      "name": "AI Solutions Development",
+      "keywords": [
+        "Custom AI Apps & Dashboards",
+        "Claude / OpenAI API Integration",
+        "Stripe Commerce Automation",
+        "Full-Stack Web Development (Node.js, Vue, Python)",
+        "Deep Learning (PyTorch, TensorFlow)",
+        "Computer Vision (OpenCV)"
+      ]
     },
     {
-      "name": "Databases",
-      "keywords": ["MySQL", "T-SQL", "SQL Server"]
-    },
-    {
-      "name": "Servers",
-      "keywords": ["Node.js", "Apache", "JBoss", "IIS"]
-    },
-    {
-      "name": "Operating Systems",
-      "keywords": ["Windows", "Ubuntu Linux", "Red Hat Linux"]
-    },
-    {
-      "name": "IDEs",
-      "keywords": ["Visual Studio", "Rider", "WebStorm", "Eclipse", "IntelliJ", "CLion"]
-    },
-    {
-      "name": "Source Control",
-      "keywords": ["Git", "Perforce", "Diversion", "SVN"]
-    },
-    {
-      "name": "Project Management",
-      "keywords": ["Jira", "Unfuddle", "Microsoft Project"]
+      "name": "Leadership & Delivery",
+      "keywords": [
+        "Technical Team Leadership & Mentoring",
+        "Hiring & Building Engineering Teams",
+        "Project Assessment & Planning",
+        "Systems Architecture (15+ years)",
+        "C++, C#, Python, JavaScript"
+      ]
     }
   ],
   "projects": [
     {
       "name": "Agentic Tarot",
-      "entity": "Independent",
+      "entity": "Context Arcana",
       "url": "https://agentictarot.com/",
       "image": "/images/agentic_tarot.jpg",
       "roles": ["AI Solution Architect", "Founder"],
