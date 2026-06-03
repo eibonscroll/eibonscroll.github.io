@@ -28,6 +28,7 @@
       "name": "Prodigy Labs - The Art of Intelligence",
       "position": "Staff Real-Time Software Engineer",
       "startDate": "2025-10",
+      "endDate": "2026-06",
       "summary": "Unreal Engine - Meta Human - Nvidia Ace for Games - Breathing life into 3D Digital Humans"
     },
     {
@@ -269,6 +270,15 @@
       "roles": ["AI Solution Architect", "Founder"],
       "startDate": "2025-11",
       "summary": "Designed and built a fully agentic online business from the ground up — an AI-powered tarot reading platform where every layer of the stack is orchestrated by AI agents. Claude-powered agents handle reading generation, personalization, and contextual narrative; a Stripe-integrated storefront manages commerce end-to-end; automated content pipelines drive SEO and social distribution. The system operates with minimal human intervention, demonstrating applied AI architecture across inference, workflow orchestration, payment processing, and growth automation."
+    },
+    {
+      "name": "Context Architecture System",
+      "entity": "Context Arcana",
+      "url": "https://contextarchitecturesystem.com/",
+      "image": "/images/hermit_crab_thumbnail.png",
+      "roles": ["Founder", "AI Solution Architect"],
+      "startDate": "2026-01",
+      "summary": "Open framework for portable AI context: structured, Git-tracked files you own that work across models and tools. Defined the Shell/Body model, shipped the Shell Starter Kit, validator CLI (cas validate), and export tooling to compile context for Claude, GPT, Gemini, and Cursor — built for operational continuity when vendors and models change."
     },
     {
       "name": "Canoo HMI Dashboard",
