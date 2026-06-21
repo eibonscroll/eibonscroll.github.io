@@ -10,9 +10,9 @@
   --fg: #ece8e1;
   --muted: #a9a298;
 
-  /* Links vs section markers */
-  --link: #8ab4ff;
-  --accent: #5dcaa5; /* lighter teal for dark — general headings */
+  /* Links vs section markers — all copper-ember now */
+  --link: #e6a866; /* brighter copper — links stay distinct from headings */
+  --accent: #d08a3e; /* copper — general headings, labels, markers */
   --accent-bar: #c47a2c; /* copper — vertical bars on sections / items */
 
   /* Context Arcana copper-ember brand accent */
@@ -45,7 +45,7 @@ html, body {
 }
 
 a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; color: #1e40af; }
+a:hover { text-decoration: underline; color: #f0bd84; }
 a:focus-visible {
   outline: 2px solid var(--ring);
   outline-offset: 2px;
@@ -167,7 +167,7 @@ a:focus-visible {
 .home-card:hover {
   text-decoration: none;
   transform: translateY(-2px);
-  border-color: rgba(29, 78, 216, 0.28);
+  border-color: rgba(208, 138, 62, 0.45);
   background: #f9fafb;
 }
 .home-card__title {
@@ -248,7 +248,7 @@ h2 {
 .item:hover {
   transform: translateY(-1px);
   background: #f9fafb;
-  border-color: rgba(29, 78, 216, 0.22);
+  border-color: rgba(208, 138, 62, 0.4);
 }
 .item:focus-within {
   outline: 2px solid var(--ring);
@@ -315,7 +315,7 @@ li + li { margin-top: 4px; }
 }
 .button:hover {
   transform: translateY(-1px);
-  border-color: rgba(29, 78, 216, 0.28);
+  border-color: rgba(208, 138, 62, 0.45);
 }
 .button:focus-visible {
   outline: 2px solid var(--ring);
@@ -471,8 +471,8 @@ li + li { margin-top: 4px; }
     --panel: #ffffff;
     --fg: #111827;
     --muted: #4b5563;
-    --accent: #0f766e;
-    --accent-bar: #1d4ed8;
+    --accent: #b5651d;
+    --accent-bar: #b5651d;
     --hairline: #e5e7eb;
     --chip: #ffffff;
   }
