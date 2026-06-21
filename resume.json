@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "AI Solution Architect | Agentic Workflows & AI-Native Business Systems",
+    "label": "Forward Deployed Engineer · Real-Time & Applied-AI Systems",
     "email": "founder@contextarcana.com",
     "location": {
       "city": "Fort Collins",
@@ -13,7 +13,7 @@
       {
         "network": "LinkedIn",
         "username": "michael-purvis-4868bb6",
-        "url": "https://www.linkedin.com/in/michael-purvis-4868bb6/"
+        "url": "https://www.linkedin.com/in/mike-purvis-4868bb6/"
       },
       {
         "network": "GitHub",
@@ -21,64 +21,86 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "AI Solution Architect with 15+ years of software engineering experience, now focused on helping coaches, consultants, and service businesses redesign operations around AI.. I assess where AI creates the highest ROI, then design and implement end-to-end agentic workflows — automating lead generation, client onboarding, content pipelines, and decision-making so businesses scale without adding headcount. I built and launched Agentic Tarot as a proof-of-concept fully autonomous AI business: AI-generated personalized readings, automated commerce, and AI-driven marketing — zero staff, running 24/7. My engineering background means I deliver enterprise-grade solutions, not surface-level tool stacks: clean architecture, reliable systems, and AI workflows that actually hold up under real business load."
+    "summary": "Forward deployed engineer with 20 years building real-time, interactive, and AI-driven systems — from Unreal Engine HMI shipped in production vehicles to live MetaHuman + LLM-agent platforms. I parachute into ambiguous, early-stage problems, integrate messy systems end-to-end, and lead small teams to delivery. A deep C++/Unreal specialist now fluent in applied agentic AI and high-leverage LLM-assisted development, I also run Context Arcana — designing AI-native websites, automation, and agentic workflows for growing businesses."
   },
+  "stats": [
+    { "label": "Experience", "value": "20 yrs" },
+    { "label": "UE perf win", "value": "8→60 fps" },
+    { "label": "Teams led", "value": "3–5 eng" },
+    { "label": "Shipped", "value": "Solar Ash" }
+  ],
   "work": [
     {
-      "name": "Prodigy Labs - The Art of Intelligence",
-      "position": "Staff Real-Time Software Engineer",
+      "name": "Context Arcana LLC",
+      "position": "Founder & Principal Engineer",
+      "startDate": "2026-05",
+      "summary": "Growth for small business through AI-native websites, automation, and AI integration.",
+      "highlights": [
+        "Design and ship AI-native websites and automation pipelines for small-business clients, from architecture through deployment.",
+        "Deliver applied-AI integrations (LLM workflows, content and automation systems) that replace manual work and accelerate client growth."
+      ]
+    },
+    {
+      "name": "Prodigy Labs — The Art of Intelligence",
+      "position": "Staff Real-Time Software Engineer (Pre-Seed)",
       "startDate": "2025-10",
       "endDate": "2026-06",
-      "summary": "Unreal Engine - Meta Human - Nvidia Ace for Games - Breathing life into 3D Digital Humans"
+      "summary": "Built the real-time MetaHuman layer of an AI-mentor platform fusing Unreal Engine Pixel Streaming with a cloud agentic LLM backend.",
+      "highlights": [
+        "Implemented MetaHuman behavior and animation blending for live conversational sessions.",
+        "Built the RPC link between Unreal Engine and the cloud agent; debugged Pixel Streaming performance and graphics."
+      ]
     },
     {
       "name": "Grimigeon Games",
-      "position": "Director of Engineering",
+      "position": "Director of Engineering (Pre-Seed)",
       "startDate": "2025-06",
       "endDate": "2026-04",
-      "summary": "Lead Technical Development of 3rd person adventure game Vertical Slice"
+      "summary": "Led gameplay engineering and technical direction for a UE5 studio as part of founding leadership; set technical pillars and ran engineering hiring."
     },
     {
       "name": "Mercor Intelligence",
       "position": "Senior Software Engineer (Contract)",
       "startDate": "2025-01",
       "endDate": "2025-08",
-      "summary": "Prompt creation for training advanced AI in complex software engineering tasks. Work across C++/Python frameworks and AI productivity tools."
+      "summary": "Authored prompts and evaluations to train advanced AI models on complex C++/Python software-engineering tasks; built AI developer-productivity tooling."
     },
     {
       "name": "Canoo",
       "position": "Lead HMI Software Engineer",
       "startDate": "2021-11",
       "endDate": "2025-01",
-      "summary": "Led the UI/HMI effort for Canoo vehicles, overseeing UI engineers, hiring, mentoring, demos, and dashboard architecture.",
+      "summary": "Led a 3-engineer UI/HMI team delivering the in-vehicle main touchscreen and dash-display interfaces across 3 vehicle programs.",
       "highlights": [
-        "Designed and implemented dashboard touchscreen application architecture.",
-        "Programming in C++, Qt/QML, and Unreal Engine; shader/material development.",
-        "Meta-programming with API Gear to generate service bindings to Unreal Engine.",
-        "Served on engineering interview panels and drove team standards."
-      ]
+        "Owned HMI architecture in C++, Qt/QML, and Unreal Engine (API Gear meta-programming, UE shader/material work).",
+        "Ran hiring, engineering interview panels, mentoring, and internal demos; drove team standards."
+      ],
+      "callout": {
+        "value": "8→60+ fps",
+        "note": "Unreal Engine on NXP i.MX8 automotive hardware"
+      }
     },
     {
       "name": "Heart Machine",
       "position": "Senior Systems Engineer",
       "startDate": "2021-04",
       "endDate": "2021-11",
-      "summary": "UI programming on Solar Ash (PS4/PS5, PC) using Unreal Engine C++ and Blueprints."
+      "summary": "Shipped Solar Ash (PS4 / PS5 / PC, Dec 2021): UI and systems programming in Unreal Engine C++ and Blueprints."
     },
     {
       "name": "Konami Gaming, Inc.",
-      "position": "Software Engineer IV",
+      "position": "Software Engineer IV → Team Lead",
       "startDate": "2019-06",
       "endDate": "2021-04",
       "summary": "Team Lead in Games R&D; C++ development and debugging for video slot machine games.",
       "highlights": [
-        "Led tasking, mentoring, and interviewing for engineers.",
-        "Project assessment, planning, and time budgeting."
+        "Managed a team of 5 engineers; led tasking, mentoring, interviewing, planning, and time budgeting.",
+        "Managed and trained 3rd-party studios on Konami's development process and hardware, driving their on-platform delivery."
       ]
     },
     {
       "name": "United Power",
-      "position": "Senior Game Programmer",
+      "position": "Senior Game Programmer / Team Lead",
       "startDate": "2018-08",
       "endDate": "2019-06",
       "summary": "Team lead and JavaScript game programmer for a web-based MMO.",
@@ -109,7 +131,7 @@
       "position": "Simulation Software Developer",
       "startDate": "2015-08",
       "endDate": "2016-07",
-      "summary": "C++ refactoring from legacy C to modern C++ to meet military requirements."
+      "summary": "C++ refactoring from legacy C to modern object-oriented C++ to meet military requirements."
     },
     {
       "name": "Midnight Studios",
@@ -118,7 +140,7 @@
       "endDate": "2015-07",
       "summary": "Designed and led development for a small UE4 arcade game; AAA UI contributions.",
       "highlights": [
-        "Implemented GUI features enabling 4-player local splitscreen to Borderlands: The Pre-Sequel and Borderlands 2.",
+        "Implemented GUI features enabling 4-player local splitscreen for Borderlands: The Pre-Sequel and Borderlands 2.",
         "Helped develop a modular gaming platform (HTML5/AngularJS/CreateJS)."
       ]
     },
@@ -127,12 +149,10 @@
       "position": "Principal Software Engineer",
       "startDate": "2012-03",
       "endDate": "2013-10",
-      "summary": "Promoted from Senior Engineer; Unreal Engine 3/C++/UnrealScript gameplay systems.",
+      "summary": "Promoted from Senior Engineer; Unreal Engine 3 / C++ / UnrealScript gameplay systems.",
       "highlights": [
-        "Led FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation).",
-        "Multiplayer networking; ported single-player systems to multiplayer.",
-        "Built Python tool to parse code and auto-populate documentation spreadsheets, reducing effort from 6 to 2 months.",
-        "Built Python build-monitor gadget for server status."
+        "Led an FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation) and multiplayer networking.",
+        "Built a Python tool to parse code and auto-populate documentation, reducing effort from 6 months to 2."
       ]
     },
     {
@@ -144,13 +164,12 @@
     },
     {
       "name": "Chickasaw Nation Industries",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer / Project Lead",
       "startDate": "2009-11",
       "endDate": "2011-10",
       "summary": "Designed and developed an Intelligent Agent military simulation and led the project.",
       "highlights": [
-        "Project Manager, Development Lead, and Site Manager in year 2.",
-        "Recruited and hired engineers and artists.",
+        "Project Manager, Development Lead, and Site Manager in year 2; recruited and hired engineers and artists.",
         "Technologies: C++, MySQL, .NET/C#/WPF; HLA interoperability with other simulations."
       ]
     },
@@ -159,28 +178,21 @@
       "position": "Software Analyst I",
       "startDate": "2008-12",
       "endDate": "2009-11",
-      "summary": "Wargame and ground combat simulation programming; built GUI tool suite for scenario creation for COMBATXI."
+      "summary": "Wargame and ground-combat simulation programming; built a GUI tool suite for scenario creation for COMBATXI."
     },
     {
       "name": "Lifetouch National Studios",
       "position": "Application Programmer",
       "startDate": "2006-09",
       "endDate": "2008-10",
-      "summary": "Office automation for assembling and printing using C#, VB, SQL, and .NET; Access queries."
-    },
-    {
-      "name": "Tricky Software",
-      "position": "Jr. Software Engineer (Contract)",
-      "startDate": "2007-10",
-      "endDate": "2007-11",
-      "summary": "Programmed menu system for Spore Origins (iPod Touch) in C."
+      "summary": "Office automation for assembly and printing using C#, VB, SQL, and .NET."
     },
     {
       "name": "White Wolf / CCP North America",
       "position": "Intern Programmer",
       "startDate": "2007-05",
       "endDate": "2007-08",
-      "summary": "Developed a combat system prototype for the MMO World of Darkness (Python in EVE engine)."
+      "summary": "Developed a combat-system prototype for the MMO World of Darkness (Python in EVE engine)."
     }
   ],
   "education": [
@@ -218,46 +230,46 @@
   ],
   "skills": [
     {
-      "name": "AI Strategy & Consulting",
+      "name": "Real-Time & 3D Engineering",
       "keywords": [
-        "Company AI Needs Assessment",
-        "AI Roadmap & Workflow Design",
-        "Operations Optimization for Productivity & Profit",
-        "AI-Grade Data Architecture",
-        "Decision Support & Business Intelligence",
-        "AI Workshop Facilitation & Team Training"
+        "Unreal Engine 5 (C++/Blueprint)",
+        "Pixel Streaming",
+        "MetaHuman",
+        "Qt / QML",
+        "Shaders & materials",
+        "WebGL"
       ]
     },
     {
-      "name": "Agentic AI & Automation",
+      "name": "Applied AI & Agentic Systems",
       "keywords": [
-        "AI Agent Design & Deployment",
-        "End-to-End Agentic Business Systems",
-        "Workflow Orchestration & Process Automation",
-        "AI-Powered Lead Generation & Personalized Marketing",
-        "Conversational AI & Chatbot Implementation",
-        "Co-Pilot & Prompt Engineering"
+        "Agentic AI integration",
+        "LLM-assisted development",
+        "RAG / context systems",
+        "Conversational AI",
+        "Prompt engineering",
+        "Computer vision (OpenCV)"
       ]
     },
     {
-      "name": "AI Solutions Development",
+      "name": "Languages & Platforms",
       "keywords": [
-        "Custom AI Apps & Dashboards",
-        "Claude / OpenAI API Integration",
-        "Stripe Commerce Automation",
-        "Full-Stack Web Development (Node.js, Vue, Python)",
-        "Deep Learning (PyTorch, TensorFlow)",
-        "Computer Vision (OpenCV)"
+        "C++",
+        "C#",
+        "Python",
+        "JavaScript / TypeScript",
+        "SQL",
+        "Node.js · Vue · GraphQL"
       ]
     },
     {
-      "name": "Leadership & Delivery",
+      "name": "AI Strategy & Delivery",
       "keywords": [
-        "Technical Team Leadership & Mentoring",
-        "Hiring & Building Engineering Teams",
-        "Project Assessment & Planning",
-        "Systems Architecture (15+ years)",
-        "C++, C#, Python, JavaScript"
+        "AI needs assessment & roadmaps",
+        "Workflow & process automation",
+        "Stripe commerce automation",
+        "Technical team leadership & hiring",
+        "3rd-party studio delivery"
       ]
     }
   ],
@@ -269,7 +281,7 @@
       "image": "/images/agentic_tarot.jpg",
       "roles": ["AI Solution Architect", "Founder"],
       "startDate": "2025-11",
-      "summary": "Designed and built a fully agentic online business from the ground up — an AI-powered tarot reading platform where every layer of the stack is orchestrated by AI agents. Claude-powered agents handle reading generation, personalization, and contextual narrative; a Stripe-integrated storefront manages commerce end-to-end; automated content pipelines drive SEO and social distribution. The system operates with minimal human intervention, demonstrating applied AI architecture across inference, workflow orchestration, payment processing, and growth automation."
+      "summary": "A fully agentic online business built from the ground up — Claude-powered agents handle reading generation and personalization, a Stripe-integrated storefront manages commerce end-to-end, and automated content pipelines drive SEO and social distribution, all running with minimal human intervention."
     },
     {
       "name": "Context Architecture System",
@@ -278,7 +290,7 @@
       "image": "/images/hermit_crab_thumbnail.png",
       "roles": ["Founder", "AI Solution Architect"],
       "startDate": "2026-01",
-      "summary": "Open framework for portable AI context: structured, Git-tracked files you own that work across models and tools. Defined the Shell/Body model, shipped the Shell Starter Kit, validator CLI (cas validate), and export tooling to compile context for Claude, GPT, Gemini, and Cursor — built for operational continuity when vendors and models change."
+      "summary": "Open framework for portable AI context: structured, Git-tracked files you own that work across models and tools. Shipped the Shell/Body model, Shell Starter Kit, a validator CLI, and export tooling for Claude, GPT, Gemini, and Cursor."
     },
     {
       "name": "Canoo HMI Dashboard",
@@ -287,7 +299,7 @@
       "roles": ["Lead HMI Software Engineer"],
       "startDate": "2021-11",
       "endDate": "2025-01",
-      "summary": "Led architecture and implementation of vehicle dashboard touchscreen UI/HMI in Unreal/Qt-QML; team leadership and hiring."
+      "summary": "Led architecture and implementation of vehicle dashboard touchscreen UI/HMI in Unreal/Qt-QML; brought UE to 60+ fps on NXP i.MX8 automotive hardware."
     },
     {
       "name": "Solar Ash (UI)",
@@ -302,13 +314,13 @@
       "name": "Lemons Must Die",
       "entity": "Superbyte Games",
       "image": "/images/lmd_thumbnail.jpg",
-      "roles": ["Enginneernig and Design"],
+      "roles": ["Engineering and Design"],
       "startDate": "2015-05",
       "endDate": "2019-06",
-      "summary": "Gameplay Programming, UI Programming, and Level Design for levels 2–13, including boss combat design and programming."
+      "summary": "Gameplay programming, UI programming, and level design for levels 2–13, including boss combat design and programming."
     },
     {
-      "name": "Borderlands 2 / The Pre-Sequel – 4P Splitscreen GUI",
+      "name": "Borderlands 2 / The Pre-Sequel — 4P Splitscreen GUI",
       "entity": "Midnight Studios",
       "image": "/images/bl2_thumbnail.jpg",
       "roles": ["Software Engineer III"],
@@ -327,6 +339,14 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Applied Agentic AI for Software Engineers",
+      "issuer": "Interview Kickstart (2025)"
+    },
+    {
+      "name": "Computer Vision",
+      "issuer": "OpenCV (2025)"
+    },
     {
       "name": "Pixar Certificate for RenderMan",
       "issuer": "Pixar / Autodesk Maya"

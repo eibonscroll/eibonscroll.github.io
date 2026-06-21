@@ -8,6 +8,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("CNAME");
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("resume.json");
+  eleventyConfig.addPassthroughCopy("Michael-Purvis-Resume.pdf");
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
 
@@ -30,6 +31,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("isoDate", (value) => {
     const d = value instanceof Date ? value : new Date(value);
     return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+  });
+
+  eleventyConfig.addFilter("monthYear", (value) => {
+    if (!value) return "";
+    const d = new Date(value.length === 7 ? value + "-01" : value);
+    if (Number.isNaN(d.getTime())) return value;
+    return new Intl.DateTimeFormat("en-US", {
+      year: "numeric",
+      month: "short",
+      timeZone: "UTC",
+    }).format(d);
   });
 
   eleventyConfig.addFilter("readableDate", (value) => {
