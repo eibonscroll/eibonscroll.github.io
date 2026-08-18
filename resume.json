@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Michael Galbraith Purvis",
-    "label": "Forward Deployed Engineer · Real-Time & Applied-AI Systems",
+    "label": "Technical Leadership · Project & Product Management",
     "email": "founder@contextarcana.com",
     "location": {
       "city": "Fort Collins",
@@ -21,23 +21,23 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "Forward deployed engineer with 20 years building real-time, interactive, and AI-driven systems — from Unreal Engine HMI shipped in production vehicles to live MetaHuman + LLM-agent platforms. I parachute into ambiguous, early-stage problems, integrate messy systems end-to-end, and lead small teams to delivery. A deep C++/Unreal specialist now fluent in applied agentic AI and high-leverage LLM-assisted development, I also run Context Arcana — designing AI-native websites, automation, and agentic workflows for growing businesses."
+    "summary": "Engineering leader with 20 years in new-product development, moving deliberately from hands-on engineering into project and product leadership. I've led cross-functional delivery across three vehicle programs at an EV manufacturer; managed a 5-engineer R&D team and third-party development studios in regulated casino gaming; served as Project Manager, Development Lead, and Site Manager on a federal simulation contract; and founded a consultancy where I own scope, schedule, phased delivery plans, and client outcomes end to end. Deep, current fluency in generative-AI tooling and AI-assisted delivery — and pursuing PMP certification. A career spent building demanding real-time software, now focused on leading the teams and programs that deliver products."
   },
   "stats": [
     { "label": "Experience", "value": "20 yrs" },
-    { "label": "UE perf win", "value": "8→60 fps" },
+    { "label": "Vehicle programs", "value": "3 concurrent" },
     { "label": "Teams led", "value": "3–5 eng" },
-    { "label": "Shipped", "value": "Solar Ash" }
+    { "label": "Doc effort cut", "value": "6 mo → 2" }
   ],
   "work": [
     {
       "name": "Context Arcana LLC",
-      "position": "Founder & Principal Engineer",
+      "position": "Founder & Principal",
       "startDate": "2026-05",
-      "summary": "Growth for small business through AI-native websites, automation, and AI integration.",
+      "summary": "Run client engagements end to end — discovery, requirements refinement with non-technical stakeholders, phased implementation plans, delivery, and support — owning scope, schedule, and outcomes.",
       "highlights": [
-        "Design and ship AI-native websites and automation pipelines for small-business clients, from architecture through deployment.",
-        "Deliver applied-AI integrations (LLM workflows, content and automation systems) that replace manual work and accelerate client growth."
+        "Planned and delivered an online art-registration and delivery platform across five coordinated workstreams (computer-vision pipeline, WebGL rendering, cloud/database services, mobile app, admin console), managed through written phase specifications with explicit acceptance criteria and stakeholder review gates.",
+        "Built an AI-native delivery practice: generative-AI-assisted development, automated content pipelines, and a Stripe-integrated automated storefront operating with minimal human intervention."
       ]
     },
     {
@@ -56,24 +56,24 @@
       "position": "Director of Engineering (Pre-Seed)",
       "startDate": "2025-06",
       "endDate": "2026-04",
-      "summary": "Led gameplay engineering and technical direction for a UE5 studio as part of founding leadership; set technical pillars and ran engineering hiring."
+      "summary": "Founding leadership for a UE5 studio: set technical pillars and direction, led gameplay engineering, and ran engineering hiring."
     },
     {
       "name": "Mercor Intelligence",
       "position": "Senior Software Engineer (Contract)",
       "startDate": "2025-01",
       "endDate": "2025-08",
-      "summary": "Authored prompts and evaluations to train advanced AI models on complex C++/Python software-engineering tasks; built AI developer-productivity tooling."
+      "summary": "Trained advanced AI models on complex C++/Python software-engineering tasks; built AI developer-productivity tooling — the immersion that grounds my current generative-AI fluency."
     },
     {
       "name": "Canoo",
       "position": "Lead HMI Software Engineer",
       "startDate": "2021-11",
       "endDate": "2025-01",
-      "summary": "Led a 3-engineer UI/HMI team delivering the in-vehicle main touchscreen and dash-display interfaces across 3 vehicle programs.",
+      "summary": "Led the 3-engineer UI/HMI team delivering the main touchscreen and dash-display products across three vehicle programs — the coordination point between design, engineering, and vehicle-program schedules.",
       "highlights": [
-        "Owned HMI architecture in C++, Qt/QML, and Unreal Engine (API Gear meta-programming, UE shader/material work).",
-        "Ran hiring, engineering interview panels, mentoring, and internal demos; drove team standards."
+        "Owned HMI architecture (C++, Qt/QML, Unreal Engine) and aligned schedule and scope with vehicle-program milestones across three concurrent programs.",
+        "Ran hiring, engineering interview panels, mentoring, and internal demos; drove team standards and set performance budgets that took embedded UI from 8 to 60+ fps."
       ],
       "callout": {
         "value": "8→60+ fps",
@@ -92,10 +92,10 @@
       "position": "Software Engineer IV → Team Lead",
       "startDate": "2019-06",
       "endDate": "2021-04",
-      "summary": "Team Lead in Games R&D; C++ development and debugging for video slot machine games.",
+      "summary": "Team Lead in Games R&D — directed planning, tasking, and time budgeting for a 5-engineer team in a compliance-driven, regulated gaming environment.",
       "highlights": [
-        "Managed a team of 5 engineers; led tasking, mentoring, interviewing, planning, and time budgeting.",
-        "Managed and trained 3rd-party studios on Konami's development process and hardware, driving their on-platform delivery."
+        "Managed a team of 5 engineers: planning, tasking, time budgeting, interviewing, and mentoring.",
+        "Managed and trained third-party development studios on Konami's development process and hardware — vendor oversight from onboarding through on-platform release in a regulated industry."
       ]
     },
     {
@@ -138,7 +138,7 @@
       "position": "Software Engineer III",
       "startDate": "2013-10",
       "endDate": "2015-07",
-      "summary": "Designed and led development for a small UE4 arcade game; AAA UI contributions.",
+      "summary": "Designed and led development for a small UE4 arcade game; shipped GUI features enabling 4-player local splitscreen for Borderlands 2 and The Pre-Sequel.",
       "highlights": [
         "Implemented GUI features enabling 4-player local splitscreen for Borderlands: The Pre-Sequel and Borderlands 2.",
         "Helped develop a modular gaming platform (HTML5/AngularJS/CreateJS)."
@@ -149,7 +149,7 @@
       "position": "Principal Software Engineer",
       "startDate": "2012-03",
       "endDate": "2013-10",
-      "summary": "Promoted from Senior Engineer; Unreal Engine 3 / C++ / UnrealScript gameplay systems.",
+      "summary": "Led the FBI Crime Scene Training Game; built a Python documentation-automation tool that cut a 6-month deliverable to 2 months.",
       "highlights": [
         "Led an FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation) and multiplayer networking.",
         "Built a Python tool to parse code and auto-populate documentation, reducing effort from 6 months to 2."
@@ -167,7 +167,7 @@
       "position": "Senior Software Engineer / Project Lead",
       "startDate": "2009-11",
       "endDate": "2011-10",
-      "summary": "Designed and developed an Intelligent Agent military simulation and led the project.",
+      "summary": "Designed an intelligent-agent military simulation; Project Manager, Development Lead, and Site Manager in year two — program planning in MS Project; recruited and hired the engineering and art team.",
       "highlights": [
         "Project Manager, Development Lead, and Site Manager in year 2; recruited and hired engineers and artists.",
         "Technologies: C++, MySQL, .NET/C#/WPF; HLA interoperability with other simulations."
@@ -230,46 +230,47 @@
   ],
   "skills": [
     {
-      "name": "Real-Time & 3D Engineering",
+      "name": "Program & Delivery",
       "keywords": [
-        "Unreal Engine 5 (C++/Blueprint)",
-        "Pixel Streaming",
-        "MetaHuman",
-        "Qt / QML",
-        "Shaders & materials",
-        "WebGL"
+        "Project planning · schedules & milestones",
+        "JIRA · Agile (Scrum, Kanban)",
+        "MS Project",
+        "Phased specs & acceptance criteria",
+        "Review gates & documentation control",
+        "Risk surfacing & escalation",
+        "Process improvement"
       ]
     },
     {
-      "name": "Applied AI & Agentic Systems",
+      "name": "Leadership",
       "keywords": [
-        "Agentic AI integration",
-        "LLM-assisted development",
-        "RAG / context systems",
-        "Conversational AI",
-        "Prompt engineering",
+        "Cross-functional team leadership",
+        "Hiring & interview panels",
+        "Mentoring",
+        "Third-party / vendor management",
+        "Stakeholder communication & demos",
+        "Requirements refinement with users"
+      ]
+    },
+    {
+      "name": "Automation & AI",
+      "keywords": [
+        "Generative-AI-assisted delivery",
+        "Agentic workflow design",
+        "LLM tooling",
+        "Automation pipelines",
         "Computer vision (OpenCV)"
       ]
     },
     {
-      "name": "Languages & Platforms",
+      "name": "Technical Foundation — 20 years",
       "keywords": [
         "C++",
-        "C#",
+        "C# / .NET",
         "Python",
         "JavaScript / TypeScript",
         "SQL",
-        "Node.js · Vue · GraphQL"
-      ]
-    },
-    {
-      "name": "AI Strategy & Delivery",
-      "keywords": [
-        "AI needs assessment & roadmaps",
-        "Workflow & process automation",
-        "Stripe commerce automation",
-        "Technical team leadership & hiring",
-        "3rd-party studio delivery"
+        "Embedded/automotive · console · web · cloud · mobile"
       ]
     }
   ],
@@ -339,6 +340,10 @@
     }
   ],
   "certificates": [
+    {
+      "name": "Claude 101",
+      "issuer": "Anthropic (2026)"
+    },
     {
       "name": "Applied Agentic AI for Software Engineers",
       "issuer": "Interview Kickstart (2025)"
