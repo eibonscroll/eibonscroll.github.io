@@ -21,7 +21,7 @@
         "url": "https://github.com/eibonscroll"
       }
     ],
-    "summary": "Engineering leader with 20 years in new-product development, moving deliberately from hands-on engineering into project and product leadership. I've led cross-functional delivery across three vehicle programs at an EV manufacturer; managed a 5-engineer R&D team and third-party development studios in regulated casino gaming; served as Project Manager, Development Lead, and Site Manager on a federal simulation contract; and founded a consultancy where I own scope, schedule, phased delivery plans, and client outcomes end to end. Deep, current fluency in generative-AI tooling and AI-assisted delivery — and pursuing PMP certification. A career spent building demanding real-time software, now focused on leading the teams and programs that deliver products."
+    "summary": "Engineering leader with 20 years in new-product development, moving deliberately from hands-on engineering into project and product leadership. I've led cross-functional delivery across three vehicle programs at an EV manufacturer; managed a 5-engineer R&D team and third-party development studios in regulated casino gaming; carried Project Manager and Site Manager duties on a federal simulation contract while titled Senior Software Engineer; and founded a consultancy where I own scope, schedule, phased delivery plans, and client outcomes end to end. Deep, current fluency in generative-AI tooling and AI-assisted delivery — and pursuing PMP certification. A career spent building demanding real-time software, now focused on leading the teams and programs that deliver products."
   },
   "stats": [
     { "label": "Experience", "value": "20 yrs" },
@@ -164,12 +164,12 @@
     },
     {
       "name": "Chickasaw Nation Industries",
-      "position": "Senior Software Engineer / Project Lead",
+      "position": "Senior Software Engineer",
       "startDate": "2009-11",
       "endDate": "2011-10",
-      "summary": "Designed an intelligent-agent military simulation; Project Manager, Development Lead, and Site Manager in year two — program planning in MS Project; recruited and hired the engineering and art team.",
+      "summary": "Designed an intelligent-agent military simulation; took on Project Manager and Site Manager duties in year two while titled Senior Software Engineer — program planning in MS Project; recruited and hired the engineering and art team.",
       "highlights": [
-        "Project Manager, Development Lead, and Site Manager in year 2; recruited and hired engineers and artists.",
+        "Carried the duties of Project Manager and Site Manager in year 2 without holding either title; recruited and hired engineers and artists.",
         "Technologies: C++, MySQL, .NET/C#/WPF; HLA interoperability with other simulations."
       ]
     },
