@@ -4,10 +4,22 @@ title: Blog
 permalink: /blog/
 ---
 <div class="page">
-  <header>
-    <h1>Blog</h1>
-    <p class="muted">Writing on software engineering, AI-assisted development, and game technology.</p>
-  </header>
+  <h1 class="sr-only">Blog</h1>
+
+  <nav class="blog-hero" aria-label="Context Arcana sites">
+    <a class="blog-hero__card" href="https://contextarcana.com" rel="noopener">
+      <span class="blog-hero__title">Implementation</span>
+      <span class="blog-hero__domain">contextarcana.com</span>
+    </a>
+    <a class="blog-hero__card" href="https://contextarchitecturesystem.com" rel="noopener">
+      <span class="blog-hero__title">Open Source</span>
+      <span class="blog-hero__domain">contextarchitecturesystem.com</span>
+    </a>
+    <a class="blog-hero__card" href="https://contextcollection.com/" rel="noopener">
+      <span class="blog-hero__title">Products</span>
+      <span class="blog-hero__domain">contextcollection.com</span>
+    </a>
+  </nav>
 
   {% if collections.posts | length %}
   <ul class="post-cards">
