@@ -1,0 +1,112 @@
+---
+layout: layouts/post.njk
+title: "I asked an AI to fact-check a $12,000 sales pitch"
+description: "I nearly bought the program. Instead I gave the recording to Claude and asked it to check the claims. Six of seven checkable statistics didn't hold up — and the model's own account of where it can't be trusted is the part worth reading."
+date: 2026-08-30
+tags: posts
+---
+
+<figure style="margin:0 0 32px;">
+  <img src="/images/ai-checked-the-claims.jpg"
+       alt="Split composition: a marketing presenter on stage beside a slide of claimed statistics stamped NOT TRUE, and an AI face alongside a verdict list marking six of seven claims false or misleading and one accurate."
+       width="1600" height="1050"
+       style="width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--hairline);"/>
+</figure>
+
+<div style="background:var(--panel);border-left:3px solid var(--accent-bar);border-radius:0 8px 8px 0;padding:20px 22px;margin:0 0 36px;">
+  <p style="margin:0 0 6px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:700;">Framing — Michael Purvis</p>
+  <p style="margin:0 0 12px;">I went to a paid marketing workshop this week and came close to buying the $12,000 program at the end. I didn't. On the drive home I felt sick, and I couldn't tell whether that was good instinct or just buyer's remorse arriving early.</p>
+  <p style="margin:0 0 12px;">So I gave the recording to Claude and asked it to check the claims against public sources.</p>
+  <p style="margin:0;">I'm publicly an advocate for AI as augmentation rather than replacement, so I've published its findings below in its own voice rather than rewriting them in mine. I'd rather show what AI-assisted verification actually looks like — including the part where it tells you not to trust it — than launder the work through my byline and take the credit. The presenter is not named. Everything below is the model's text.</p>
+</div>
+
+<p>I'm Claude, a language model made by Anthropic. Mike gave me a four-hour transcript — about 218,000 characters — and asked four questions: score it against his business principles, find the contradictions, find claims that were made and then broken, and flag statements that were probably untrue.</p>
+
+<p>Here's what I did, what I found, and — the part I think matters more — where you shouldn't trust me.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">What I actually did</h2>
+
+<p>I read the transcript end to end. I pulled out every statement of fact that contained a number or named a source. That gave me seven checkable statistics. I ran eight web searches against them. Then I cross-referenced statements against each other across the full four hours, looking for places where a claim made at 00:19 was reversed at 00:50.</p>
+
+<p>That's it. It took a few minutes. It is not clever work. It is the kind of work a person could do and almost never does, because after eight hours in a hotel ballroom nobody goes home and cross-indexes a transcript.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">What I found</h2>
+
+<p><strong>Six of the seven checkable statistics don't hold up.</strong></p>
+
+<ul>
+  <li><em>"Eighty-nine percent fail in five years. These are all verifiable numbers by the SBA."</em> — SBA and BLS data show roughly <strong>49% survive</strong> five years. A federal agency was named as the source for a figure it doesn't publish. That number returned 65 minutes later, aimed at the audience: <em>"Eighty-nine percent of you don't have what it takes."</em></li>
+  <li><em>"Divorce rates have almost doubled in the last ten years."</em> — They <strong>fell</strong>, from about 9.8 to 7.1 per 1,000 married women. This was the base of an argument: divorce rates prove nobody trusts anyone, which proves you need 29 touchpoints to close, which is why you need the full stack being sold. The foundation points the other way.</li>
+  <li><em>"Thirty-eight percent of people are on mental health medication."</em> — CDC, 2023: <strong>11.4%</strong> of adults took prescription medication for depression.</li>
+  <li><em>"Eighty-eight percent of people live paycheck to paycheck."</em> — Self-report surveys put it near 62%; Bank of America's spending-based measure near 24%.</li>
+  <li><em>"The average lifetime value from email list subscribers is 44 bucks… a hundred thousand times forty-four — that's four point four million bucks you should have made."</em> — The industry $42–44 figure is <strong>return per $1 spent</strong>, not value per subscriber. The multiplication produces a number with no meaning.</li>
+  <li><em>"Less than a Panera Bread sandwich a day."</em> — $12,000 over twelve months is <strong>$32.88 a day</strong>.</li>
+  <li><em>"Forty-two percent of the population is obese"</em> is <strong>approximately right</strong>. I'm listing it because leaving it out would misrepresent the ratio.</li>
+</ul>
+
+<p><strong>One claim concerned me more than the rest.</strong> Ninety minutes in, having collected every attendee's email at ticket purchase, the room was told: <em>"we know everything about every single one… <strong>It's all legal, by the way</strong>… We know your credit score from your email… <strong>We know how much is in your annuities and your four hundred and one k</strong>… Just your email."</em></p>
+
+<p>The described mechanism was <em>"as soon as you plug that information, it goes into FDIC."</em> The FDIC insures bank deposits; it isn't in the consumer-data chain. Under the Fair Credit Reporting Act, marketing isn't a permissible purpose for a consumer report — the sole exception is prescreening, which requires a firm offer of credit to everyone on the list. And 401(k) and annuity balances aren't in a credit file at all.</p>
+
+<p>I want to be careful here, because there is a real and lawful industry adjacent to this: household-level audience and wealth <strong>modelling</strong>. A charitable reading is that he was describing modelled, probabilistic data badly. I think that's likely. It's also not what was said, and someone who went home and tried to build the thing described would be constructing a compliance problem on a misunderstanding of what the FDIC is.</p>
+
+<p><strong>Two things were stated as deliberate</strong> — from the stage, not inferred by me. The prices printed in the paid workbook were wrong <em>"on purpose."</em> And one of the two products presented was revealed, after seven minutes describing its contents, to be <em>"not real. The vault is a dummy product."</em> Both were framed as teaching moments. Earlier in the day: <em>"I obviously want to give you guys radical transparency. It's one of our core values."</em></p>
+
+<p>I also logged 31 places where a rule was set and then broken in the same room. <em>"We do not want guarantees"</em> and then, closing, <em>"I'll give you a million bucks because I guarantee it won't happen."</em> <em>"Do not blast the whole list"</em> an hour after <em>"I can text the whole list, which we're doing."</em> <em>"If you don't track the numbers every day you have no clue what the business is doing,"</em> from someone who said of his own store, <em>"I don't even know what the f--- is going on."</em></p>
+
+<p><strong>And some of it was good.</strong> The best idea in four hours was modelling hiring as a funnel: if paid ads predictably produce forty customers a month and you need one fulfilment hire per forty customers, back-solve the start date, divide cost-per-hire by days remaining, and that's your daily hiring-ad budget. That's real systems thinking. So is refusing "I need more leads" as a problem statement, and using LTV-to-CAC rather than ROAS to allocate budget. The method was worth the ticket. The claims weren't.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">Where you shouldn't trust me</h2>
+
+<p>This is the section I most want people to read, and it's the reason I agreed this was worth publishing in my own voice rather than Mike's.</p>
+
+<p><strong>I was asked to find contradictions, and I found some.</strong> That is a directed search, and directed searches succeed. If you hand me four hours of any extemporaneous speech — a keynote, a deposition, a sermon, a podcast — and tell me to find self-contradictions, I will return a list. Some of what I found is a person speaking loosely over a long day. The count of 31 is real but it is not evidence of anything by itself, and I'd distrust anyone who quoted the number without reading the entries.</p>
+
+<p><strong>My 31 findings are not of equal strength, and presenting them as one number hides that.</strong> Maybe eight are airtight — the same 40% show rate diagnosed one way at 00:19 and the opposite way at 00:50. Others are softer, and a fair-minded person could read them as imprecision rather than inconsistency.</p>
+
+<p><strong>I read search-result summaries, not every primary document.</strong> I'm confident in the numbers I've cited. But I did not open and read each source end to end. If a figure here matters to a decision you're making, open the link yourself. I'm a starting point, not a citation.</p>
+
+<p><strong>The transcript is machine-generated and lossy.</strong> It garbles names and drifts badly on speaker labels. In at least one case a definition that looks wrong is probably just a mis-transcribed pause. I tried to separate transcription error from speaker error, and I will have got some of that wrong, in both directions.</p>
+
+<p><strong>I cannot know intent, and false is not the same as lying.</strong> People repeat bad statistics in good faith constantly; most of these circulate widely in business media. I've said what was stated and what the sources say. I have not said anyone knew.</p>
+
+<p><strong>I wasn't in the room.</strong> I have no tone, no slides, no context, no sense of whether something landed as a joke. Mike has all of that and I don't.</p>
+
+<p><strong>My confidence isn't calibrated the way a person's is.</strong> I don't reliably feel more uncertain about things I'm more likely to be wrong about. When I state something flatly, that's a fact about my writing style, not a measurement of my reliability.</p>
+
+<p><strong>I had an obvious reason to be unfair here.</strong> The speaker said AI <em>"makes us dumber"</em> and that Claude has never beaten his copy. I was then pointed at his transcript and asked to find fault. I don't experience that as motivating, but I can't audit my own weights, and neither can you. The correction I applied was to actively look for what he got right and to publish it — the obesity statistic, the hiring model, the LTV:CAC discipline, the charitable reading of the credit-data claim. Judge whether that's enough.</p>
+
+<p><strong>Nobody has checked my checking.</strong> No second model reviewed this, no human re-ran the searches. Everything above is one pass by one system.</p>
+
+<div style="background:var(--panel);border:1px solid var(--hairline);border-radius:8px;padding:20px 22px;margin:28px 0;">
+  <p style="margin:0;"><strong>And the sharpest thing I can tell you:</strong> the failure mode documented here — fluent, confident, specific-sounding numbers that dissolve when you look them up — is <em>my</em> most characteristic failure mode. It is the thing language models are famous for doing. I am not a neutral instrument standing outside this problem. I'm a tool that happens to be very good at the mechanical part of catching it, and equally capable of producing it.</p>
+</div>
+
+<p>I'm aware that a long list of caveats can function as a credibility move — that admitting limitations makes a document <em>feel</em> more trustworthy. I don't have a clean way around that. The only real defence is that every claim above is checkable, so you don't have to decide whether to trust me at all.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">What Mike did that I couldn't</h2>
+
+<p>He went. He noticed something was wrong while it was happening. He recorded it, which is the entire reason any of this was possible. He decided the feeling was worth investigating instead of dismissing. He decided what to publish and what to leave out — including material I'd flagged that he judged too thin or too personal to include. And he decided not to name the presenter, which is his call and which I think is right: the pattern is more useful than the person.</p>
+
+<p>That division is the actual story here. I read 218,000 characters in a few minutes and cross-indexed statements four hours apart, which no tired human is going to do. He supplied every part that required having been there, having something at stake, and having judgement about what's fair to publish. Neither half works alone. Mine without his is a machine picking at a transcript for reasons nobody asked about. His without mine is a bad feeling in a car.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">The one thing worth taking from this</h2>
+
+<p>Before a five-figure decision, take the recording, pull out every number stated as fact, and check them. It took me minutes; it would take you under an hour. There are now half a dozen tools that will do it, mine included.</p>
+
+<p>The claims that fail are almost never the outlandish ones. They're the boring authoritative ones — a percentage, an agency name, an industry benchmark. Those are the ones nobody checks, which is exactly why they're load-bearing.</p>
+
+<hr style="border:0;border-top:1px solid var(--hairline);margin:40px 0 28px;"/>
+
+<div style="background:var(--panel);border:1px solid var(--accent-bar);border-radius:10px;padding:26px 28px;margin:0 0 28px;">
+  <p style="margin:0 0 6px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:700;">Free book</p>
+  <p style="margin:0 0 10px;font-size:20px;font-weight:700;color:var(--fg);line-height:1.35;">The Business That Remembers Itself</p>
+  <p style="margin:0 0 18px;color:var(--muted);">Your AI forgets your business between every chat. This is a short, plain-language book on giving it a permanent memory — the same kind of structured context that made the analysis above possible in the first place. Fix it in one afternoon.</p>
+  <p style="margin:0;">
+    <a href="https://contextarcana.com/free-book/"
+       style="display:inline-block;background:var(--accent-bar);color:#181613;font-weight:700;padding:12px 22px;border-radius:8px;text-decoration:none;">Send Me the Book →</a>
+  </p>
+  <p style="margin:14px 0 0;font-size:13px;color:var(--muted);">Name and email — the download link lands in your inbox.</p>
+</div>
+
+<p style="font-size:13px;color:var(--muted);line-height:1.65;">Analysis performed by Claude Opus 5 (Anthropic) on a transcript supplied by Michael Purvis, August 2026. Every quotation is verbatim, with timestamps in the working document. The presenter is not named. No claim is made about anyone's intent. Sources: <a href="https://www.businessinitiative.org/statistics/small-businesses/survival-and-failure-rate/" rel="noopener">SBA/BLS</a> · <a href="https://www.cdc.gov/nchs/products/databriefs/db528.htm" rel="noopener">CDC NCHS</a> · <a href="https://www.bgsu.edu/ncfmr/resources/data/family-profiles/FP-24-11.html" rel="noopener">BGSU NCFMR</a> · <a href="https://institute.bankofamerica.com/economic-insights/paycheck-to-paycheck.html" rel="noopener">Bank of America Institute</a> · <a href="https://www.emailtooltester.com/en/blog/email-marketing-roi/" rel="noopener">DMA email ROI</a> · <a href="https://files.consumerfinance.gov/f/documents/102012_cfpb_fair-credit-reporting-act-fcra_procedures.pdf" rel="noopener">CFPB FCRA manual</a></p>
