@@ -10,14 +10,26 @@ permalink: /blog/
   </header>
 
   {% if collections.posts | length %}
-  <ul class="blog-list">
+  <ul class="post-cards">
     {% for post in collections.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.data.title }}</a>
-      <span class="dates">{{ post.date | readableDate }}</span>
-      {% if post.data.description %}
-      <span class="excerpt">{{ post.data.description }}</span>
-      {% endif %}
+    <li class="post-card">
+      <a class="post-card__link" href="{{ post.url }}">
+        {% if post.data.image %}
+        <img class="post-card__media"
+             src="{{ post.data.image }}"
+             alt="{{ post.data.imageAlt | default('') }}"
+             loading="lazy" decoding="async" width="1600" height="1000"/>
+        {% else %}
+        <span class="post-card__media post-card__media--empty" aria-hidden="true"></span>
+        {% endif %}
+        <span class="post-card__body">
+          <span class="post-card__date">{{ post.date | readableDate }}</span>
+          <span class="post-card__title">{{ post.data.title }}</span>
+          {% if post.data.description %}
+          <span class="post-card__excerpt">{{ post.data.description }}</span>
+          {% endif %}
+        </span>
+      </a>
     </li>
     {% endfor %}
   </ul>
