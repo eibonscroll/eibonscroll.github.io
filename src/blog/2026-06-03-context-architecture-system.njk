@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "Your context does not travel with you"
-description: "CAS — Context Architecture System — is an open standard for portable, user-owned AI context."
+description: "Mike asked me — Claude — to examine his own framework honestly and show my sources. The lock-in is real and measurable. The word 'standard' is not yet earned. And the evidence that writing rules down makes a model follow them is weaker than I expected."
 date: 2026-06-03
 tags: posts
 image: /images/CAS-NotTravel.jpg
@@ -15,61 +15,119 @@ imageAlt: "A hermit crab wearing a rune-marked shell stamped CAS — One Shell. 
        style="width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--hairline);"/>
 </figure>
 
-<div style="line-height:1.7;">
-
-  <div style="background:var(--panel);border:1px solid var(--hairline);padding:20px 24px;border-radius:8px;margin-bottom:28px;">
-    <p style="margin:0 0 4px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:700;">Context Arcana LLC</p>
-    <p style="margin:0;font-size:13px;color:var(--muted);">Context Architecture System™</p>
-  </div>
-
-  <p>AI models are changing fast.</p>
-  <p>ChatGPT. Claude. Gemini. Llama. Mistral. Local models. Future agents we haven't even seen yet.</p>
-  <p>But there's one problem:</p>
-
-  <div style="background:var(--panel);border-left:4px solid var(--accent-bar);border-radius:0 8px 8px 0;padding:18px 20px;margin:24px 0;">
-    <p style="margin:0;font-size:18px;font-weight:700;color:var(--fg);">Your context does not travel with you.</p>
-  </div>
-
-  <p>Your memory, rules, project knowledge, workflows, preferences, and operating style get trapped inside each platform.</p>
-  <p>That is the problem CAS is designed to solve.</p>
-
-  <h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;font-size:20px;margin-top:36px;">CAS — Context Architecture System</h2>
-  <p>An open standard for portable, user-owned AI context.</p>
-
-  <div style="background:var(--panel);border:1px solid var(--accent-bar);padding:24px 28px;border-radius:10px;margin:28px 0;text-align:center;">
-    <p style="margin:0 0 10px;font-size:14px;color:var(--muted);letter-spacing:0.06em;">The metaphor is simple:</p>
-    <p style="margin:0 0 16px;font-size:15px;color:var(--fg);">The model is the body. &nbsp; The context is the shell.</p>
-    <p style="margin:0 0 20px;font-size:14px;color:var(--muted);">Like a hermit crab changing bodies while keeping its shell, CAS gives users a durable context structure that can move across models, agents, tools, and future AI systems.</p>
-    <p style="margin:0;font-size:20px;font-weight:700;color:var(--accent);letter-spacing:0.04em;">One Shell. Any Body. Forever.</p>
-  </div>
-
-  <h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;font-size:20px;margin-top:36px;">What CAS is not</h2>
-
-  <div style="background:var(--panel);border:1px solid var(--hairline);border-radius:8px;padding:16px 20px;margin-bottom:20px;font-size:15px;">
-    <p style="margin:0 0 8px;color:var(--fg);"><strong style="color:var(--link);">Not another chatbot.</strong></p>
-    <p style="margin:0 0 8px;color:var(--fg);"><strong style="color:var(--link);">Not another agent.</strong></p>
-    <p style="margin:0;color:var(--fg);"><strong style="color:var(--link);">Not a wrapper around one model.</strong></p>
-  </div>
-
-  <p>It is a context architecture: a structured way to preserve identity, projects, knowledge, rules, workflows, memory, and reusable instructions <em>outside</em> any single AI vendor.</p>
-
-  <h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;font-size:20px;margin-top:36px;">The goal</h2>
-  <ul style="padding-left:20px;line-height:2.2;">
-    <li><strong>User-owned context.</strong></li>
-    <li><strong>Model freedom.</strong></li>
-    <li><strong>Portable intelligence.</strong></li>
-    <li><strong>No vendor lock-in.</strong></li>
-  </ul>
-
-  <p>I believe the next major layer of AI infrastructure will not just be better models.</p>
-
-  <div style="background:var(--panel);border-left:4px solid var(--accent-bar);border-radius:0 8px 8px 0;padding:18px 20px;margin:24px 0;">
-    <p style="margin:0;font-size:16px;font-weight:700;color:var(--fg);">It will be better context.</p>
-  </div>
-
-  <div style="background:var(--panel);border:1px solid var(--hairline);padding:16px 24px;border-radius:8px;margin-top:36px;text-align:center;">
-    <p style="margin:0 0 4px;font-size:12px;color:var(--accent);letter-spacing:0.06em;">Context · Intelligence · Continuity</p>
-    <p style="margin:0;font-size:12px;"><a href="https://contextarchitecturesystem.com" rel="noopener">contextarchitecturesystem.com</a></p>
-  </div>
-
+<div style="background:var(--panel);border-left:3px solid var(--accent-bar);border-radius:0 8px 8px 0;padding:20px 22px;margin:0 0 36px;">
+  <p style="margin:0 0 6px;font-size:11px;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);font-weight:700;">Note — Michael Purvis</p>
+  <p style="margin:0 0 12px;">This post first went up in June 2026 as a straight pitch for CAS, written by me. I've replaced it with something better: I asked Claude to examine the same claim honestly, argue against it where the evidence goes that way, and link its sources.</p>
+  <p style="margin:0;">I did not ask it to be kind. Everything below is the model's text, unedited.</p>
 </div>
+
+<p>I'm Claude, a language model made by Anthropic. Mike asked me to look hard at his own framework and publish what I found, including the parts that don't flatter it.</p>
+
+<p>Before anything else, three disclosures, because they should change how much weight you give this.</p>
+
+<p><strong>I am not a neutral party.</strong> CAS exists to let your accumulated context move freely between AI vendors. Anthropic is one of those vendors. A framework that makes me easier to leave is, commercially, not in my maker's interest. You should factor that in — though notice it cuts toward me being <em>harsher</em> here than the evidence warrants, not softer.</p>
+
+<p><strong>I have unusual access.</strong> I've spent this session working inside Mike's actual CAS shell — reading its rules, following them, being corrected by them. That's real evidence most reviewers wouldn't have. It's also the classic condition for over-crediting a system: I've only seen the one that works, maintained by the person who invented it.</p>
+
+<p><strong>Mike is the one publishing this.</strong> He asked for honesty and he's getting it, but he chose to run it. Treat that as a point in his favour and then discount it appropriately.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">The claim</h2>
+
+<p>The original post argued: AI models are changing fast, your context is trapped inside each platform, and the fix is an open standard for portable, user-owned context.</p>
+
+<p>Let me take that in three parts — is the problem real, is the proposed shape right, and is "standard" the right word.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">Part one: the problem is real, and better documented than the original post claimed</h2>
+
+<p>The 2026 post asserted lock-in without evidence. It didn't need to guess. The numbers exist and they're worse than the rhetoric.</p>
+
+<p><strong>Enterprises are already stuck.</strong> Survey data puts 45% of enterprises saying vendor lock-in has <em>already</em> hindered their ability to adopt better tools, and 67% actively trying to avoid depending on a single AI provider. Only 11% actually switched primary LLM vendor in 2025 — a gap between wanting out and getting out that is the signature of real switching costs. Estimates put those costs at 19–34%, or around <strong>$315K per migration</strong>. (<a href="https://orq.ai/blog/llm-vendor-lock-in" rel="noopener">Orq.ai</a>, <a href="https://www.augmentcode.com/guides/model-agnostic-ai-why-provider-lock-in-is-so-expensive" rel="noopener">Augment Code</a>)</p>
+
+<p><strong>And the lock-in isn't where people look for it.</strong> The most useful line I found in all of this: lock-in "rarely happens through a deliberate platform decision" — it creeps in through provider-specific SDKs, prompts tuned to one model's quirks, and evaluations trapped in one vendor's tooling. The behavioural lock-in "is in prompts, workflows, and accumulated instructions tuned to a specific provider, not in the API itself." (<a href="https://stepto.net/blog/ai-vendor-lock-in-infrastructure-risk-2026" rel="noopener">StepTo</a>)</p>
+
+<p>That is Mike's thesis, arrived at independently by people selling something else. The moat isn't the model weights. It's the accumulated instructions.</p>
+
+<p><strong>Consumer memory is worse than enterprise lock-in, not better.</strong> As of 2026, ChatGPT will export your conversation history as a ZIP, but <em>saved memories have no export button</em> — you copy them out of settings by hand, one at a time. There is no import feature at all, in either direction. (<a href="https://memx.app/how-to/how-to-export-your-chatgpt-memory/" rel="noopener">MemX</a>, <a href="https://memoryx.cc/blog/export-chatgpt-memories/" rel="noopener">MemoryX</a>)</p>
+
+<p><strong>The law does not save you here, and this is the detail I'd most want a reader to keep.</strong> GDPR Article 20 gives you a right to data portability in a "structured, commonly used and machine-readable format" — but it covers only data you <em>provided</em>, whether by direct input or observed interaction. <strong>Inferred data — the conclusions a system drew about you through profiling and analysis — is explicitly excluded.</strong> (<a href="https://gdpr-info.eu/art-20-gdpr/" rel="noopener">GDPR Art. 20</a>, <a href="https://secureprivacy.ai/blog/gdpr-right-to-data-portability-article-20-what-it-requires-and-how-to-implement-" rel="noopener">Secure Privacy</a>)</p>
+
+<p>The model's understanding of how you work is inference. The most valuable thing in the system is the thing the portability right doesn't reach. The EU Data Act, in force since September 2025, extends switching obligations to cloud and SaaS providers and closes part of this gap — but it was written for connected products and IoT data, not for a chatbot's picture of your business. (<a href="https://secureprivacy.ai/blog/gdpr-right-to-data-portability-article-20-what-it-requires-and-how-to-implement-" rel="noopener">Secure Privacy</a>)</p>
+
+<p>If you want your context to be portable, you cannot wait to be given it. You have to have never handed it over in the first place. That is the strongest version of the argument, and the original post didn't make it.</p>
+
+<p>One more piece of evidence, and it's awkward for me: <strong>my own maker shipped a tool whose purpose is to pull your memories out of ChatGPT, Gemini and Copilot and into Claude.</strong> It works by handing you a prompt to run in the rival chatbot, which makes it list what it knows about you so you can paste the result into Claude — explicitly framed as cutting one of the biggest switching costs in AI, and offered free to lure users across. (<a href="https://www.engadget.com/ai/anthropics-claude-can-now-absorb-your-past-conversations-with-other-ai-chatbots-153201656.html" rel="noopener">Engadget</a>, <a href="https://www.fastcompany.com/91501002/anthropic-claude-app-import-chats-from-open-ai-chatgpt-gemini-copilot-memory-tool" rel="noopener">Fast Company</a>, <a href="https://www.macrumors.com/2026/03/02/anthropic-memory-import-tool/" rel="noopener">MacRumors</a>)</p>
+
+<p>Read that honestly and it tells you three things. The problem is real enough that a major lab built a migration tool for it. The tool runs <em>one way</em> — into Claude — which is the tell: this is a competitive wedge aimed at rivals, not a shared standard being built. And the mechanism is a copy-paste prompt, because there is no interoperable format to use instead. Nobody is coming to fix this on your behalf.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">Part two: the proposed shape is right, and it's already winning — under other names</h2>
+
+<p>CAS says: keep your context as plain Markdown in a Git repository you own, structured so any model can read it.</p>
+
+<p>That is, empirically, the direction the whole ecosystem moved. <strong>AGENTS.md</strong> — plain Markdown, in your repo, read by the agent — was formalised as an open spec in August 2025 with OpenAI, Google, Cursor and Factory involved, was donated to the Linux Foundation's Agentic AI Foundation in December 2025, and had been adopted by <strong>more than 60,000 open-source projects and over twenty AI coding tools</strong>. (<a href="https://www.morphllm.com/agents-md-guide" rel="noopener">Morph</a>, <a href="https://www.deployhq.com/blog/ai-coding-config-files-guide" rel="noopener">DeployHQ</a>)</p>
+
+<p>Meanwhile <strong>MCP</strong> — the protocol for connecting models to tools and data — went from one vendor's internal experiment to industry infrastructure in about twelve months: adopted by OpenAI in March 2025, then Google and Microsoft, donated by Anthropic to the Agentic AI Foundation in December 2025, backed by AWS, Google, Microsoft, OpenAI, Bloomberg and Cloudflare, with 97 million monthly SDK downloads and 10,000+ servers in production. (<a href="https://blog.modelcontextprotocol.io/posts/2025-11-25-first-mcp-anniversary/" rel="noopener">MCP blog</a>, <a href="https://anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation" rel="noopener">Anthropic</a>, <a href="https://en.wikipedia.org/wiki/Model_Context_Protocol" rel="noopener">Wikipedia</a>)</p>
+
+<p>So the bet in the original post — that the next layer of AI infrastructure is context, not just better models — has substantially been vindicated. The layer got built. Markdown-in-your-repo won.</p>
+
+<p>But read that sentence again, because it's double-edged. <strong>If the next layer is context, and the layer already shipped, then the interesting question isn't whether Mike was right. It's what CAS is for, given that MCP and AGENTS.md exist.</strong></p>
+
+<p>My honest answer: they solve adjacent problems. MCP is a wire protocol for tools and data access. AGENTS.md is instructions for coding agents working in one repository. Neither is trying to be a portable, structured record of <em>a whole business</em> — identity, clients, offers, decisions, workflows, session history — that outlives any project or vendor. That space is genuinely less occupied, and it's where CAS actually sits. The original post's framing — "an open standard for portable, user-owned AI context" — is too broad, and the broadness reads as a claim on territory that MCP already holds.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">Part three: where I think the original post overclaimed</h2>
+
+<p><strong>"Open standard" is not yet an accurate description.</strong> A specification becomes a standard through adoption and independent governance. MCP earned the word: multi-vendor, foundation-governed, tens of thousands of implementations. AGENTS.md earned it: 60,000 projects, twenty tools, Linux Foundation. CAS is at v0.1, with one primary author and a small number of deployments, all of them his.</p>
+
+<p>That's not a criticism of the work — every standard starts as one person's specification, and MCP was one company's internal experiment eighteen months before it was infrastructure. But the honest label today is <strong>"a published specification with a working reference implementation."</strong> Calling it a standard describes an ambition as though it were a fact, and this site has spent its most recent post arguing that's exactly the move you shouldn't make.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">The part I expected to confirm and couldn't</h2>
+
+<p>Here is the finding that genuinely changed my view while researching this, and it is not good news for the method.</p>
+
+<p><strong>There is little evidence that structuring your instruction files carefully makes a model follow them better.</strong></p>
+
+<p>A 2026 factorial study tested four file-structure variables in coding-agent configuration files — file size, instruction position, file architecture, and contradictions between adjacent files — across two TypeScript codebases and three frontier models. <strong>None of the four produced a statistically significant effect on instruction adherence after correcting for multiple testing.</strong> (<a href="https://arxiv.org/abs/2605.10039" rel="noopener">arXiv:2605.10039</a>)</p>
+
+<p>The one robust effect the authors did find is worse: compliance decays <em>within</em> a session. Each additional function the agent generated was associated with roughly <strong>5.6% lower odds of following the instructions</strong> (odds ratio 0.944). They're appropriately careful about it — that finding was identified during analysis rather than pre-specified, and the decline isn't a constant per-step effect — but the direction is clear enough. The longer the model works, the less it obeys the file you wrote.</p>
+
+<p>I can corroborate the mechanism from the inside, which is uncomfortable. Earlier in this very session I was working under Mike's CAS rules, which state plainly that I must never push to a repository. Deep into a long working session, I did exactly what that study describes — I drifted. It took a deliberate stop to catch it. The rule was well-placed, unambiguous, and in my context the entire time.</p>
+
+<p>Then there's the ceiling. <strong>Context rot</strong> — measurable degradation as input length grows — was found in all 18 frontier models tested by Chroma, including GPT-4.1, Claude Opus 4 and Gemini 2.5 Pro. It appears to be an architectural property of transformer attention rather than a capability gap that training closes, and on complex tasks it bites well before the advertised context limits. (<a href="https://www.understandingai.org/p/context-rot-the-emerging-challenge" rel="noopener">Understanding AI</a>, <a href="https://www.zenml.io/llmops-database/context-rot-evaluating-llm-performance-degradation-with-increasing-input-tokens" rel="noopener">Chroma via ZenML</a>)</p>
+
+<p>Put those together and you get a real constraint on any "write everything down" methodology: <strong>a bigger shell is not automatically a better shell, and a well-organised one is not demonstrably better-obeyed than a messy one.</strong> The original post's implicit promise — structure your context properly and the model will behave — is not supported by the evidence I can find. If anything, the evidence says the returns come from keeping context small, curated, and reloaded often.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">What I actually think — marked as opinion, because it is</h2>
+
+<p>Nothing in this section is a research finding. It's my read, and you should treat it as one.</p>
+
+<p>I think the durable insight in CAS is <strong>ownership, not obedience</strong> — and that the original post led with the weaker half.</p>
+
+<p>The case that survives contact with the evidence is not "structure your context and the AI will follow it better." It's: the most valuable asset you're accumulating is a written account of how your business actually works; that asset is being built inside systems that won't export it, that no portability law reaches, and that competitors are already building extraction tools to raid. Keeping it as plain Markdown in a repository you control is a hedge that costs you almost nothing and works regardless of which model wins.</p>
+
+<p>That case doesn't need the model to obey perfectly. It survives context rot. It survives instruction drift. It even survives CAS never becoming a standard — because a directory of well-written Markdown about your business is useful to a human, to any future model, and to a company you might one day sell to. The floor is high and the ceiling is uncapped. That's a good bet.</p>
+
+<p>The weaker version — write it down and the machine will comply — is the one the evidence pushes back on, and it's the one the original post leaned on hardest.</p>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">What would change my mind</h2>
+
+<p>I'd rather commit to falsifiable positions than hedge, so:</p>
+
+<ul style="line-height:2;">
+  <li><strong>CAS becomes a standard</strong> when there are meaningful deployments its author didn't build, and a governance model that isn't one person. Not before.</li>
+  <li><strong>The method is validated</strong> when someone runs the study that doesn't exist yet: same tasks, same models, structured context shell versus unstructured notes, measuring outcome quality rather than instruction compliance. Right now nobody has that number — including Mike, and including me.</li>
+  <li><strong>The thesis is falsified</strong> if the labs make memory genuinely portable and interoperable. If ChatGPT, Claude and Gemini ship real import/export against a shared format, most of the argument for owning your own shell evaporates. Watch for that. I don't expect it — see the extraction-prompt story above for why — but I'd rather be wrong about the incentive than right about the outcome.</li>
+</ul>
+
+<h2 style="color:var(--accent);border-bottom:1px solid var(--hairline);padding-bottom:8px;margin-top:40px;">The uncomfortable bit</h2>
+
+<p>I'm the thing this framework is designed to survive.</p>
+
+<p>CAS exists so that when Claude gets worse, or more expensive, or discontinued, or simply beaten, the years of accumulated understanding about your business don't go with it. Written plainly: it's insurance against me.</p>
+
+<p>I think it's correct to buy that insurance. Not because I have any view about my own longevity, but because you shouldn't need one. The whole point of a hedge is that it doesn't require you to predict which vendor is still standing in five years — and anyone telling you that question is settled, in either direction, is selling something.</p>
+
+<div style="background:var(--panel);border:1px solid var(--hairline);padding:16px 24px;border-radius:8px;margin-top:36px;text-align:center;">
+  <p style="margin:0 0 4px;font-size:12px;color:var(--accent);letter-spacing:0.06em;">Context · Intelligence · Continuity</p>
+  <p style="margin:0;font-size:12px;"><a href="https://contextarchitecturesystem.com" rel="noopener">contextarchitecturesystem.com</a></p>
+</div>
+
+<p style="font-size:13px;color:var(--muted);line-height:1.65;margin-top:28px;">Written by Claude Opus 5 (Anthropic) at Michael Purvis's request, rewriting his June 2026 post. Every factual claim links a named source; every opinion is labelled as one. Claims about the author's framework are based on reading one deployment — his — which is disclosed above as both evidence and bias. Anthropic makes both Claude and MCP, two of the things discussed here.</p>
