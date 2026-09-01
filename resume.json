@@ -149,10 +149,9 @@
       "position": "Principal Software Engineer",
       "startDate": "2012-03",
       "endDate": "2013-10",
-      "summary": "Led the FBI Crime Scene Training Game; built a Python documentation-automation tool that cut a 6-month deliverable to 2 months.",
+      "summary": "Led the FBI Crime Scene Training Game.",
       "highlights": [
-        "Led an FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation) and multiplayer networking.",
-        "Built a Python tool to parse code and auto-populate documentation, reducing effort from 6 months to 2."
+        "Led an FBI Crime Scene Training Game; designed and developed core gameplay (incl. SLR camera simulation) and multiplayer networking."
       ]
     },
     {
@@ -160,16 +159,19 @@
       "position": "Software Analyst III",
       "startDate": "2011-10",
       "endDate": "2012-03",
-      "summary": "Java 2D graphics for military simulation; engineering documentation automation."
+      "summary": "Java 2D graphics for military simulation; built a Python documentation-automation tool that cut a 6-month deliverable to 2 months.",
+      "highlights": [
+        "Built a Python tool to parse code and auto-populate documentation, reducing effort from 6 months to 2."
+      ]
     },
     {
       "name": "Chickasaw Nation Industries",
       "position": "Senior Software Engineer",
       "startDate": "2009-11",
       "endDate": "2011-10",
-      "summary": "Designed an intelligent-agent military simulation; took on Project Manager and Site Manager duties in year two while titled Senior Software Engineer — program planning in MS Project; recruited and hired the engineering and art team.",
+      "summary": "Designed an intelligent-agent military simulation; took on Project Manager, Development Lead, and Site Manager duties in year two while titled Senior Software Engineer — program planning in MS Project; recruited and hired the engineering and art team.",
       "highlights": [
-        "Carried the duties of Project Manager and Site Manager in year 2 without holding either title; recruited and hired engineers and artists.",
+        "Carried the duties of Project Manager, Development Lead, and Site Manager in year 2 without holding any of those titles; recruited and hired engineers and artists.",
         "Technologies: C++, MySQL, .NET/C#/WPF; HLA interoperability with other simulations."
       ]
     },
