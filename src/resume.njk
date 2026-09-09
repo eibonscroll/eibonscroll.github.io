@@ -63,7 +63,8 @@ permalink: /resume/
     <h2>Selected Work</h2>
     <div class="work-strip">
       {% for p in resume.projects %}
-      {% if p.image %}
+      {# projects with "resume": false stay on /projects/ only #}
+      {% if p.image and p.resume !== false %}
       <a class="work-card{% if not p.url %} work-card--static{% endif %}"{% if p.url %} href="{{ p.url }}" target="_blank" rel="noopener"{% endif %}>
         <img class="work-card__img" src="{{ p.image }}" alt="{{ p.name }}" loading="lazy"/>
         <div class="work-card__body">

@@ -278,6 +278,18 @@
   ],
   "projects": [
     {
+      "name": "DEEPWATCH — Ignition HMI Tech Demo",
+      "entity": "Independent project",
+      "resume": false,
+      "url": "https://github.com/eibonscroll/submersible-hmi",
+      "image": "/images/deepwatch_thumbnail.jpg",
+      "roles": [
+        "Design and Development"
+      ],
+      "startDate": "2026-09",
+      "summary": "Operator HMI for a fictional five-crew military submersible, built in Ignition 8.3 Perspective to learn the platform in two days. A Python Modbus TCP simulator models depth and propulsion, a lithium-ion and fuel-cell power plant, atmosphere, and scheduled faults; the gateway polls it and every value lands as a tag with quality. Two live views (CONN and POWER) carry a custom phosphor-on-abyss theme with an animated sonar sweep, a bound SVG silhouette whose parts change colour with alarms, and depth and heading tapes. The Perspective views are generated as JSON from one hand-built seed view; the repo includes the simulator, theme, generated views, a gateway backup, and a recording."
+    },
+    {
       "name": "Agentic Tarot",
       "entity": "Context Arcana",
       "url": "https://agentictarot.com/",
